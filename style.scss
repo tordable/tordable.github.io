@@ -169,6 +169,7 @@ img {
 
   @include mobile {
     text-align: center;
+    padding-top: 10px;
   }
 }
 
@@ -239,7 +240,6 @@ nav {
 
     @include mobile {
       margin: 0 10px;
-      color: $blue;
     }
   }
 }
