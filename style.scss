@@ -160,15 +160,12 @@ img {
 
 .wrapper-masthead {
   margin-bottom: 50px;
-  background: url(/images/cover-small.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+  background: url(/images/cover-small.jpg) no-repeat center;
   background-size: cover;
 }
 
 .masthead {
-  padding: 110px 0 110px 0;
+  padding: 120px 0 120px 0;
 
   @include mobile {
     text-align: center;
