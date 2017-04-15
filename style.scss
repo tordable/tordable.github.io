@@ -161,6 +161,9 @@ img {
 .wrapper-masthead {
   margin-bottom: 50px;
   background: url(/images/cover-small.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
 }
 
