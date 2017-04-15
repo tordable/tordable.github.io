@@ -160,7 +160,8 @@ img {
 
 .wrapper-masthead {
   margin-bottom: 50px;
-  background-image: url(/images/cover-small.jpg)
+  background: url(/images/cover-small.jpg) no-repeat center center fixed;
+  background-size: cover;
 }
 
 .masthead {
