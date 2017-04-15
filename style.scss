@@ -159,12 +159,12 @@ img {
 //
 
 .wrapper-masthead {
-  margin-bottom: 20px;
-  background-image: url(http://www.javiertordable.com/content/images/2015/01/IMG_1147.JPG)
+  margin-bottom: 50px;
+  background-image: url(/images/cover-small.jpg)
 }
 
 .masthead {
-  padding: 100px 0 100px 0;
+  padding: 110px 0 110px 0;
   border-bottom: 1px solid $lightGray;
 
   @include mobile {
