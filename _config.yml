@@ -17,19 +17,19 @@ avatar: https://avatars2.githubusercontent.com/u/968256?s=70
 
 # Includes an icon in the footer for each username you enter
 footer-links:
+  github: tordable
+  facebook: javier.tordable
+  twitter: tordable
+  linkedin: jtordable
+  googleplus: +JavierTordable
+  rss: rss # just type anything here for a working RSS icon
+  flickr:
   dribbble:
   email:
-  facebook: javier.tordable
-  flickr:
-  github: tordable
   instagram:
-  linkedin: jtordable
   pinterest:
-  rss: www.javiertordable.com/rss/ # just type anything here for a working RSS icon
-  twitter: tordable
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   youtube: # channel/<your_long_string> or user/<user-name>
-  googleplus: +JavierTordable
 
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
