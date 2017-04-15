@@ -10,6 +10,7 @@
 
 // Custom fonts.
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
 
 // Syntax highlighting @import is at the bottom of this file
 
@@ -37,9 +38,9 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $helveticaNeue;
+  font-family: $sansTitles;
   color: $darkerGray;
-  font-weight: bold;
+  font-weight: 500;
 
   line-height: 1.7;
   margin: 1em 0 15px;
