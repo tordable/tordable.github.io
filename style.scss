@@ -23,8 +23,8 @@ html {
 
 body {
   background: $white;
-  font: 16px/1.4 $sans;
-  font-weight: 400;
+  font: 15px/1.4 $sans;
+  font-weight: 300;
   font-style: normal;
   color: $darkGray;
 }
@@ -77,7 +77,7 @@ p {
 a {
   color: $blue;
   text-decoration: none;
-	cursor: pointer;
+  cursor: pointer;
   &:hover, &:active {
     color: $blue;
   }
