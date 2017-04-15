@@ -204,7 +204,7 @@ img {
   cursor: pointer;
   font-family: $sans;
   font-weight: bold;
-  font-size: 42px;
+  font-size: 40px;
   letter-spacing: 1px;
 }
 
@@ -212,6 +212,7 @@ img {
   margin: -5px 0 0 0;
   color: $gray;
   font-size: 15px;
+  font-family: $helveticaNeue;
 
   @include mobile {
     margin: 3px 0;
