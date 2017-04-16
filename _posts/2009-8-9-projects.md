@@ -120,9 +120,7 @@ title: Projects
   a laser scan. You can find more information
   <a href="http://157.88.193.21/~lfa-davap/">here</a>.
 </p>
-<p>
 ![](/images/coloreador-screenshot.jpg)
-</p>
 <p>
   Currently I am working in another tool to apply bundle adjustment method
   to a scene with a camera in movement, in order to refine the overall
@@ -131,9 +129,7 @@ title: Projects
   coeficients of a particular set of polynomials that approximate the camera
   trajectory and orientation.
 </p>
-<p>
 ![](/images/bundle-adjustment-screenshot.jpg)
-</p>
 <p>
   I wrote a paper describing this approach. This is the abstract:
 </p>
@@ -182,11 +178,9 @@ title: Projects
     FinanceAI page</a>.
 </p>
 
-<p>
-  <a href="/finance-ai">
+<a href="/finance-ai">
 ![](/images/finance-ai-hosting.png)
-  </a>
-</p>
+</a>
 
 <p>
   FinanceAI is open source, and relesed under the Ms-RL license.
