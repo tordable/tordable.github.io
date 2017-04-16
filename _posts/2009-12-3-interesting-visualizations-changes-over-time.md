@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Interesting Visualizations: Changes Over Time
+title: "Interesting Visualizations: Changes Over Time"
 ---
 
 <p>
