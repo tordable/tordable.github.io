@@ -3,6 +3,8 @@ layout: default
 title: "Interesting Visualizations: Changes Over Time"
 ---
 
+# Interesting Visualizations: Changes Over Time
+
 <p>
 Visualizations are simply ways of representing data. But if they are good,
 they can bring us deep insights, that go well beyond what is possible to
