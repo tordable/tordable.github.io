@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Interesting Visualizations, Changes Over Time
 ---
 
@@ -28,31 +28,23 @@ track a particular situation over time. Here are three examples:
 <a href="http://www.flickr.com/photos/ciaranhughes/4121291229/">
   Tracking a change in ranking over time (by Ciaran Hughes)</a>
 </p>
-
 ![](/images/visualization-changes-ranking-over-time.png)
-
 <p>
 <a href="http://www.ge.com/visualization/health_costs/index.html">
   Tracking a change in distribution over time (from GE)</a>.
 The bottom slider changes the chart based on the age. Each section of the
 chart represent one kind of illness
 </p>
-
 ![](/images/visualization-changes-distribution-over-time-40.png)
-
 ![](/images/visualization-changes-distribution-over-time-50.png)
-
 ![](/images/visualization-changes-distribution-over-time-60.png)
-
 <p>
 <a href="http://www.xach.com/moviecharts/2008.html">
   Tracking changes in volume or magnitude over time (from xach.com)</a>.
 Each color block is a movie, and the size represents the box office in each
 week.
 </p>
-
 ![](/images/visualization-changes-volume-over-time.png)
-
 <p>
 The first visualization doesn't attempt to indicate quantity because it
 displays an abstract concept such as brand appreciation. However in the third
