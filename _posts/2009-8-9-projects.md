@@ -3,6 +3,8 @@ layout: default
 title: Projects
 ---
 
+Here are some of the projects that I worked on over the last few years:
+
 <h2>Mathematics at Google</h2>
 
 <p>
@@ -158,7 +160,7 @@ title: Projects
 <h2>Finance AI</h2>
 
 <p>
-  <a href="http://financeai.org">FinanceAI</a> is an open source project
+  FinanceAI is an open source project
   with the goal of providing advanced Artificial Intelligence, Statistical
   and Mathematical tools for amateur and sophisticated investors.
   The purpose was to develop a complete algorithmic trading platform with
