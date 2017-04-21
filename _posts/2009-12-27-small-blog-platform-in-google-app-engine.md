@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: A small blogging platform in Google App Engine
 highlighter: rouge
 ---
