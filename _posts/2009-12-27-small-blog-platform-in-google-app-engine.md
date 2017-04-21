@@ -56,11 +56,11 @@ file which assigns certain url paths (via a regular expression) to instances
 of webapp.RequestHandler.
 </p>
 
-`​``
+<pre>
 handlers:
 - url: /.*
   script: app.py
-```
+</pre>
 
 <p>
 The instance can implement a get() method which generates the response
