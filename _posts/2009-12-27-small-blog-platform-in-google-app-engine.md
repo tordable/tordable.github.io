@@ -54,7 +54,7 @@ file which assigns certain url paths (via a regular expression) to instances
 of webapp.RequestHandler.
 </p>
 
-`​`` yaml
+`​``
 handlers:
 - url: /.*
   script: app.py
@@ -64,12 +64,14 @@ handlers:
 The instance can implement a get() method which generates the response
 returned to the user.
 </p>
-<pre>
+
+``` python
 class App(webapp.RequestHandler):
     def get(self):
         self.response.headers['Content-Type'] = 'text/plain'
         self.response.out.write('Hello, World!')
-</pre>
+```
+
 <p>
 Finally, in order to generate HTML, Google App Engine incorporates the
 templating engine from <a href="http://www.djangoproject.com/">Django</a>.
@@ -86,7 +88,8 @@ the blog post content into the blog template and returns that content.
 Here is a sample of code. It is not the actual code, but it gives a complete
 example:
 </p>
-<pre>
+
+``` python
 class Blog(webapp.RequestHandler):
   def get(self):
     # Retrieve the posts from the database.
@@ -105,7 +108,8 @@ class Blog(webapp.RequestHandler):
     # And return a full page with the blog content.
     s = pages.FullPageGenerator()
     self.response.out.write(s.generate(content))
-</pre>
+```
+
 <p>
 To sum up, Google App Engine is a great option for developing web applications.
 Expecially if you will require it to scale seamlessly, or to integrate with
