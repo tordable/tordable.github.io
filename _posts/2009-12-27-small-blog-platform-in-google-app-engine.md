@@ -4,13 +4,14 @@ title: A small blogging platform in Google App Engine
 highlighter: rouge
 ---
 
-<p>
+
 If you have never made a
 <a href="http://en.wikipedia.org/wiki/Web_application">web application</a>
 it may seem daunting. There are hundreds of alternative technologies and
 frameworks out there. And web apps development is quite different from client
 applications, which is what most developers are used to.
-</p>
+
+
 <p>
 Here is an example of a web application. Wikipedia!
 </p>
@@ -47,6 +48,7 @@ The Datastore doesn't support queries as complex SQL does, however it can
 scale up to a level which is beyond what a normal database can do. And it
 can do so in a way that is trivial for the developer.
 </p>
+
 <p>
 Google App Engine uses <a href="http://en.wikipedia.org/wiki/YAML">yaml</a>
 and the webapp framework to answer user queries. One can set a configuration
@@ -54,7 +56,7 @@ file which assigns certain url paths (via a regular expression) to instances
 of webapp.RequestHandler.
 </p>
 
-`​`` yml
+`​``
 handlers:
 - url: /.*
   script: app.py
