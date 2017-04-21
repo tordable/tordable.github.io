@@ -13,7 +13,7 @@ applications, which is what most developers are used to.
 <p>
 Here is an example of a web application. Wikipedia!
 </p>
-<img src="/img/screenshot-wikipedia.png" alt="Screenshot of Wikipedia" />
+<img src="/images/screenshot-wikipedia.png" alt="Screenshot of Wikipedia" />
 <p>
 Most web applications share a few common elements:
 </p>
@@ -52,11 +52,13 @@ and the webapp framework to answer user queries. One can set a configuration
 file which assigns certain url paths (via a regular expression) to instances
 of webapp.RequestHandler.
 </p>
-<pre>
+
+```
 handlers:
 - url: /.*
   script: app.py
-</pre>
+```
+
 <p>
 The instance can implement a get() method which generates the response
 returned to the user.
