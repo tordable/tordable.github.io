@@ -54,7 +54,7 @@ file which assigns certain url paths (via a regular expression) to instances
 of webapp.RequestHandler.
 </p>
 
-`​``
+`​`` yml
 handlers:
 - url: /.*
   script: app.py
