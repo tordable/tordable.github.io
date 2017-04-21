@@ -3,9 +3,10 @@ layout: post
 title: My First Blog Post
 ---
 
-<p>
+
 Hello everybody. This is the first post in my new blog. This is not your common Wordpress or Blogger blog. It runs on a custom blogging platform made from scratch, on top of Google App Engine. Soon I will add a couple of posts about how it's done, and I will release the code of the platform.
-</p>
+
+
 <p>
 In the future I will use this blog to talk about stuff that interests me. For example:
 <ul>
