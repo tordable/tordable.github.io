@@ -11,10 +11,10 @@ License in Google Code. It includes everything necessary to run in
 <a href="http://hadoop.apache.org/">Apache Hadoop</a>, as well as the numerical
 libraries used. It has no dependencies apart from the last version of Hadoop.
 </p>
-<p>
+
 <img src="http://hadoop.apache.org/images/hadoop-logo.jpg"
      alt="Hadoop logo" />
-</p>
+
 <p>
 This project is a proof of concept that shows how to use MapReduce, a framework
 for distributed computation to solve a purely numerical problem. The main
