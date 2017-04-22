@@ -12,7 +12,7 @@ already checked it out, you won't find anything new. However I am very excited
 because it is my first addition to arXiv.
 </p>
 
-<img src="/img/mapreduce-integer-factorization-arxiv.png"
+<img src="/images/mapreduce-integer-factorization-arxiv.png"
     alt="MapReduce for Integer Factorization in arXiv." />
 
 <p>
