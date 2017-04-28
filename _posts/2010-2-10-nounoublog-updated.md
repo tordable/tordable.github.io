@@ -29,12 +29,6 @@ how to develop applications for Google App Engine. And second, because I wanted
 a simple but highly customizable platform, with free hosting and no ads.
 </p>
 
-<p>
-<img src="http://code.google.com/appengine/images/appengine_lowres.gif"
-     alt="Google App Engine logo" />
-</p>
-
-
 <h3>Archives</h3>
 
 <p>
