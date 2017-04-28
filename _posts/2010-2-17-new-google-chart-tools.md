@@ -12,19 +12,24 @@ graphics). And it combines both APIs within a single framework. Here is
 a <a href="http://googlecode.blogspot.com/2010/02/announcing-google-chart-tools.html">
     link to the official announcement</a>.
 </p>
+
 <p>
 This is an example of the Charts API, a map with a couple of
 countries marked in a different color:
 </p>
+
 <img src="http://chart.apis.google.com/chart?cht=t&chtm=world&chs=440x220&chld=USES&chd=t:10,50&chco=FFFFFF,00FF00,005500&chf=bg,s,EAF7FE"
     alt="Example of Google Charts API, colored map"/>
+
 <p>
 This map was generated with the following link:
 </p>
-<pre>
+
+```
 http://chart.apis.google.com/chart?cht=t&chtm=world&chs=440x220
 &chld=USES&chd=t:10,50&chco=FFFFFF,00FF00,005500&chf=bg,s,EAF7FE
-</pre>
+```
+
 <p>
 Let me go over each part in that link and explain what it means:
 </p>
