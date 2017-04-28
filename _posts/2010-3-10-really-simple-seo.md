@@ -137,7 +137,7 @@ getting my site indexed
            alt="Screenshot of Webmaster Tools Subscriber Stats"/>
 For example, my Sitemap statistics show that I have 11 pages in this sitemap, and they
 are all indexed
-<img src="/image/screenshot-webmaster-tools-sitemaps.png"
+<img src="/images/screenshot-webmaster-tools-sitemaps.png"
            alt="Screenshot of Webmaster Tools Sitemaps"/>
 </li> 
 
