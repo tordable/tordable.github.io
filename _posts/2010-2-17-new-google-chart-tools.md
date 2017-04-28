@@ -52,7 +52,7 @@ Let me go over each part in that link and explain what it means:
 <p>
 Here is another example, but this time of an interactive visualization:
 </p>
-<script type='text/javascript' src='http://www.google.com/jsapi'>
+<script type='text/javascript' src='https://www.google.com/jsapi'>
 </script>
 <script type='text/javascript'>
   google.load('visualization', '1', {'packages': ['geomap']});
