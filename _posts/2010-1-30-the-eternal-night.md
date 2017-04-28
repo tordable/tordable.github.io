@@ -11,12 +11,6 @@ show his last piece of work, a science fiction short about the end of the world.
 The short is in Spanish but with English subtitles.
 </p>
 
-<object>
-<param name="movie" value="http://www.notodofilmfest.com/ediciones/09/es/swf/player.swf?corto=22321.flv&duracion=03:30"></param>
-<param name="wmode" value="transparent"></param>
-<embed src="http://www.notodofilmfest.com/ediciones/09/es/swf/player.swf?corto=22321.flv&duracion=03:30" type="application/x-shockwave-flash" wmode="transparent" width="500" height="370"></embed>
-</object>
-
 <p>
 There are a couple of things that are interesting in this short. First, the
 script is not wildly improbable. Check out this (humorous) list of the

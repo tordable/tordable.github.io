@@ -46,20 +46,21 @@ For example, if you click in <a href="/blog/2009">2009</a>, it will show you
 all the posts from the previous year. In order to enable this I had to update
 the url structure of the blog. Now paths have the form:
 </p>
-<pre>
+
+```
 http://www.javiertordable.com/blog/2010/01/30/the-eternal-night
-</pre>
+```
 
 <p>
 With slashes separating the different parts of the url. And all the following
 are valid urls:
 </p>
 
-<pre>
+```
 http://www.javiertordable.com/blog/2010/01/30/
 http://www.javiertordable.com/blog/2010/01/
 http://www.javiertordable.com/blog/2010/
-</pre>
+```
 
 <p>
 Each one will show respectively all the posts of the day, the month, and the
@@ -67,7 +68,7 @@ year. Each one has its own handler. Here is for example the handler that
 returns all the posts in a year:
 </p>
 
-<pre>
+``` python
 class BlogYear(webapp.RequestHandler):
   """Request handler for all blog posts in a given year.
 
@@ -84,7 +85,7 @@ class BlogYear(webapp.RequestHandler):
     # And return an archives page with the posts.
     s = pages.ArchivesPageGenerator()
     self.response.out.write(s.generate(posts, str(year)))
-</pre>
+```
 
 <p>
 There are similar handlers for all the posts in a month and all the posts
@@ -117,7 +118,7 @@ Same as before the RSS feed is powered by its own handler, which is very
 simple:
 </p>
 
-<pre>
+``` python
 class RssFeed(webapp.RequestHandler):
   """Handler for the RSS feed.
 
@@ -132,14 +133,14 @@ class RssFeed(webapp.RequestHandler):
     template_values = {'posts': posts}
     self.response.out.write(template.render(template_path("rss_feed"),
                                             template_values))
-</pre>
+```
 
 <p>
 Where the template provides the XML structure of the feed, and inserts
 the data corresponding to the posts
 </p>
 
-<pre>
+``` xml
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;iso-8859-1&quot;?&gt;
 &lt;rss version=&quot;2.0&quot;&gt;
 &lt;channel&gt;
@@ -165,7 +166,7 @@ the data corresponding to the posts
 
 &lt;/channel&gt;
 &lt;/rss&gt;
-</pre>
+```
 
 <p>
 Notice that in the Django template the post elements appear as attributes
@@ -199,18 +200,18 @@ All these options seem very normal with the exception of the redirects.
 How does it work? For example, when going to:
 </p>
 
-<pre>
+```
 http://www.javiertordable.com/blog/2009-12-01/my-first-blog-post
-</pre>
+```
 
 <p>
 You are redirected to another url, which appears in the url bar. Notice
 how the dashes are now forward slash bars
 </p>
 
-<pre>
+```
 http://www.javiertordable.com/blog/2009/12/01/my-first-blog-post
-</pre>
+```
 
 <p>
 I added support for redirects because I changed the site several times
