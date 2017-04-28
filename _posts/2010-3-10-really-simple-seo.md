@@ -31,9 +31,11 @@ always choose what is best for users.
 keywords related to the page topic it will be easier to find in search results. For example,
 the url of this post includes the words <em>really simple seo</em>, that are the topic
 of the post
-  <pre> 
-    http://www.javiertordable.com/blog/2010/03/11/really-simple-seo
-  </pre> 
+
+```
+http://www.javiertordable.com/blog/2010/03/11/really-simple-seo
+```
+
 </li> 
  
 <li> 
@@ -41,10 +43,10 @@ of the post
 with appropriate keywords make it easier to find the page in search results. Even though
 the title of this page includes the full name of the site, the title begins with a good
 description of the content
-  <pre> 
+```
     Really Simple SEO - Javier Tordable blog on Software, Mathematics and
     Technology
-  </pre>
+```
 </li>
  
 <li> 
@@ -54,11 +56,11 @@ paragraph with a description of the page). If you don't use it, you will have th
 the search engine will generate it by itself, with unexpected results. This happened
 to me before I had a meta description, my snippet was taken from the RSS feed and
 looked awful. My current meta description for the homepage is:
-  <pre>
+```
     &lt;meta name="description" content="Javier Tordable blog on Software,
     Mathematics and Technology. Javier Tordable is a software engineer at
     Google and Ph.D. candidate in Mathematics."&gt;
-  </pre>
+```
 </li> 
  
 <li> 
@@ -67,13 +69,13 @@ important parts should be within a H1 tag, the second most important in H2, etc.
 until H6. For example in this post the blog title and subtitle are within H1 and H2 tags.
 The title of the particular post is in a H2, and other less important sections, the about
 box and the archives are within an H3 HTML tag
-<pre> 
+```
     &lt;h1&gt;&lt;a href="/"&gt;Javier Tordable&lt;/a&gt;&lt;/h1&gt;
     &lt;h2&gt;A blog on Software, Mathematics and Technology&lt;/h2&gt;
     &lt;h3&gt;About&lt;/h3&gt;
     &lt;h3&gt;Archives&lt;/h3&gt;
     &lt;h2&gt;Really Simple SEO&lt;/h2&gt;
-</pre>
+```
 </li>
  
 <li> 
@@ -90,9 +92,9 @@ is, the easier it will be for search engines to access a page. Also the easier i
 users to access whatever content they are looking for. In my blog I have all the main
 sections linked in the top navigation bar, which appears in all pages. And in the right
 side of most pages there is a link to all the blog posts
-  <pre> 
+```
     &lt;a href="/blog/all"&gt;All Posts&lt;/a&gt;
-  </pre> 
+```
 From the homepage of the site it's possible to access any other content page in
 two clicks or less.
 </li> 
