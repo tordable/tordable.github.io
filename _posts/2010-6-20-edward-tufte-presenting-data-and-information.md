@@ -11,8 +11,6 @@ Here is a short description, from his website:
 </p>
 
 
-
-<div id="special-text">
 > Edward Tufte has written seven books, including Beautiful Evidence,
 > Visual Explanations, Envisioning Information, The Visual Display of
 > Quantitative Information, and Data Analysis for Politics and Policy.
@@ -22,7 +20,7 @@ Here is a short description, from his website:
 > in statistical evidence, information design, and interface design.
 > His current work includes landscape sculpture, printmaking,
 > video and a new book.
-</div>
+
 
 <p>
 During the course Tufte made several observations that go against
