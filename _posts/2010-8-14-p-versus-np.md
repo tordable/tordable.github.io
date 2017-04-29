@@ -5,14 +5,13 @@ title: P versus NP
 
 <p>
 During the past week shocking news have stormed through the world of
-Theoretical Computer Science. A researcher from HP Labs, <a href=http://www.hpl.hp.com/personal/Vinay_Deolalikar/>Vinay Deolalikar</a>
+Theoretical Computer Science. A researcher from HP Labs, <a href="http://www.hpl.hp.com/personal/Vinay_Deolalikar/">Vinay Deolalikar</a>
 claimed that he had a proof that P  NP.
 </p>
 
 
 <p>
-The paper is available
-<a href=http://www.hpl.hp.com/personal/Vinay_Deolalikar/Papers/pnp_8_11.pdf>
+The paper is available <a href="http://www.hpl.hp.com/personal/Vinay_Deolalikar/Papers/pnp_8_11.pdf">
 here</a>.
 But so far it seems that it will not stand. Several researchers
 pointed out critical defects in the proof that Deolalikar proposed.
