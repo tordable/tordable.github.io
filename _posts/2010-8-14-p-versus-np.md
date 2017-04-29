@@ -5,9 +5,7 @@ title: P versus NP
 
 <p>
 During the past week shocking news have stormed through the world of
-Theoretical Computer Science. A researcher from HP Labs,
-<a href=http://www.hpl.hp.com/personal/Vinay_Deolalikar/>
-  Vinay Deolalikar</a>
+Theoretical Computer Science. A researcher from HP Labs, <a href=http://www.hpl.hp.com/personal/Vinay_Deolalikar/>Vinay Deolalikar</a>
 claimed that he had a proof that P  NP.
 </p>
 
