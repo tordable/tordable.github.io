@@ -4,7 +4,7 @@ title: How to Make an Infographic Resume
 ---
 
 <script type="text/javascript"
-        src="http://www.google.com/jsapi">
+        src="https://www.google.com/jsapi">
 </script>
 <script type="text/javascript">
   google.load('visualization', '1',{packages: ['annotatedtimeline']});
