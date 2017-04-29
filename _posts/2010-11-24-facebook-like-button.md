@@ -51,7 +51,7 @@ button below :)
 </p>
 
 <iframe 
-  src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.javiertordable.com%2Fblog%2F2010%2F11%2F24%2Ffacebook-like-button&amp;layout=standard&amp;show_faces=true&amp;width=500&amp;action=like&amp;colorscheme=light&amp;height=80" 
+  src="https://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.javiertordable.com%2Fblog%2F2010%2F11%2F24%2Ffacebook-like-button&amp;layout=standard&amp;show_faces=true&amp;width=500&amp;action=like&amp;colorscheme=light&amp;height=80" 
   scrolling="no" 
   frameborder="0" 
   style="border:none; 
