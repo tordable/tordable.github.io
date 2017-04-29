@@ -15,10 +15,10 @@ universe in which we live, and in that fact there is an amazing beauty.
 
 
 <object width="480" height="300">
-  <param name="movie" value="http://www.youtube.com/v/UuRxRGR3VpM&amp;hl=en_US&amp;fs=1" />
+  <param name="movie" value="https://www.youtube.com/v/UuRxRGR3VpM&amp;hl=en_US&amp;fs=1" />
   <param name="allowFullScreen" value="true" />
   <param name="allowscriptaccess" value="always" />
-  <embed src="http://www.youtube.com/v/UuRxRGR3VpM&amp;hl=en_US&amp;fs=1" 
+  <embed src="https://www.youtube.com/v/UuRxRGR3VpM&amp;hl=en_US&amp;fs=1" 
     type="application/x-shockwave-flash" allowscriptaccess="always" 
     allowfullscreen="true"
     width="480" height="300" />
