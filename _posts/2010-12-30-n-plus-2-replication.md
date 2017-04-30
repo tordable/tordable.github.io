@@ -15,8 +15,10 @@ redundancy of servers is one of the reasons that some sites are highly
 available.
 </p>
 
+
 <img src="/images/datacenter-replication.png"
      alt="Datacenter replication" />
+
 
 <p>
 However, duplicating all infrastructure is expensive and
