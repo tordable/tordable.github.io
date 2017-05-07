@@ -20,10 +20,10 @@ also check out the video to see all the cool features of the +1 button.
 
 <object width="500" height="314">
   <param name="movie"
-    value="http://www.youtube.com/v/OAyUNI3_V2c?version=3&amp;hl=en_US" />
+    value="https://www.youtube.com/v/OAyUNI3_V2c?version=3&amp;hl=en_US" />
   <param name="allowFullScreen" value="true" />
   <param name="allowscriptaccess" value="always" />
-  <embed src="http://www.youtube.com/v/OAyUNI3_V2c?version=3&amp;hl=en_US"
+  <embed src="https://www.youtube.com/v/OAyUNI3_V2c?version=3&amp;hl=en_US"
          type="application/x-shockwave-flash"
          width="480" height="300"
          allowscriptaccess="always"
