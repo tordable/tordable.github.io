@@ -12,6 +12,7 @@ out there, like for example, the hangouts, which are like Skype, but with
 many friends at the same time.
 </p>
 
+
 <img src="/images/google-plus-features.jpg"
   alt="Google Plus Features" />
 
