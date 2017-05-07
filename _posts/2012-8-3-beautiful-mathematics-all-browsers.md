@@ -44,7 +44,7 @@ For example:
   $$
 </p>
 
-<p>
+<p style="margin-left: 2em;">
   <em>
     where the contour integral is taken counter-clockwise.
   </em>
