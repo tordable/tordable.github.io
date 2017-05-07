@@ -9,7 +9,11 @@ Human interest in the possibility of rejuvenation begins in
 ancient times. Around 200BC the Chinese emperor Qin Shi Huang became
 obsessed with his own mortality and sent the famous alchemist Xu Fu to
 find the Peng Lai islands (where immortal beings were believed to
-live) and return with the elixir of life. Starting in the
+live) and return with the elixir of life.
+</p>
+
+<p>
+Starting in the
 Middle Ages, European alchemists began a quest for a substance that
 was not only able to transform metal into gold, but also rejuvenate
 whoever held it: the philosopher's stone. These myths have reached
@@ -135,7 +139,7 @@ junk.
 </p>
 
 <iframe class="video" width="420" height="345"
-    src="http://www.youtube.com/embed/4cRN1Y09-eI" frameborder="0" >
+    src="https://www.youtube.com/embed/4cRN1Y09-eI" frameborder="0" >
 </iframe>
 
 <h3>Controversy</h3>
