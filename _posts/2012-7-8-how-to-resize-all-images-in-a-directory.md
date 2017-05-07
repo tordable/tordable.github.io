@@ -13,6 +13,8 @@ transformation.
 <p>
 Well, here is a very easy way to do it with a dozen lines of
 Python.
+</p>
+
 
 ``` python
 # Resize all images in a directory to half the size.
