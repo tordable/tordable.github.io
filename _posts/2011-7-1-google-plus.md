@@ -27,8 +27,5 @@ you want.
   alt="Google Plus Screenshot" />
 
 <p>
-If you are already on Google+, you can find me
-<a href="https://plus.google.com/115448600022457507975/">here</a>,
-if not, send me a message and I will forward an invitation as soon as
-I have some available!
+If you are already on Google+, you can find me clicking on the g+ button below.
 </p>
