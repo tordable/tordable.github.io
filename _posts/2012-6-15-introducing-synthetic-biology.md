@@ -11,5 +11,5 @@ title: Introducing Synthetic Biology
 </p>
 
 
-<iframe width="600" height="338" style="margin-left: -30px;" src="https://www.youtube.com/embed/rD5uNAMbDaQ?rel=0" frameborder="0" allowfullscreen>
+<iframe width="600" height="338" src="https://www.youtube.com/embed/rD5uNAMbDaQ?rel=0" frameborder="0" allowfullscreen>
 </iframe>
