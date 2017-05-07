@@ -5,7 +5,7 @@ title: Tips for Better Health and Longevity
 
 <p>
 I decided to read again
-<a href="http://www.javiertordable.com/blog/2010/01/15/trascend-book-kurzweil-grossman">Transcend</a>,
+<a href="/trascend-book-kurzweil-grossman">Transcend</a>,
 and this time I took notes. Here are a few tips, in very synthesized form,
 to have better health and ensure greater longevity.
 </p>
