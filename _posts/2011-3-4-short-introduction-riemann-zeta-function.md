@@ -25,7 +25,7 @@ Euler considered the series of the form:
 </p>
 
 <p>
-for integer values of <img class="inline" src="https://chart.googleapis.com/chart?cht=tx&chl=k%3E1" />, which can
+for integer values of <img style="display: inline;" src="https://chart.googleapis.com/chart?cht=tx&chl=k%3E1" />, which can
 be easily shown to converge
 </p>
 
@@ -52,16 +52,16 @@ and obviously
 <p>
 Posteriorly Dirichlet and Chebyshev would consider real valued exponents.
 It is also easy to prove that
-<img class="inline" src="https://chart.googleapis.com/chart?cht=tx&chl=\forall%20s\in\mathbb{R},s%3E1\,\sum_{n%3D1}^{\infty}\frac{1}{n^{s}}" />
+<img style="display: inline;" src="https://chart.googleapis.com/chart?cht=tx&chl=\forall%20s\in\mathbb{R},s%3E1\,\sum_{n%3D1}^{\infty}\frac{1}{n^{s}}" />
 is a convergent series.
 Riemann went one step further and considered a complex variable
-<img class="inline" src="https://chart.googleapis.com/chart?cht=tx&chl=s" />
+<img style="display: inline;" src="https://chart.googleapis.com/chart?cht=tx&chl=s" />
 and proved that
-<img class="inline" src="https://chart.googleapis.com/chart?cht=tx&chl=\sum_{n%3D1}^{\infty}\frac{1}{n^{s}}" />
+<img style="display: inline;" src="https://chart.googleapis.com/chart?cht=tx&chl=\sum_{n%3D1}^{\infty}\frac{1}{n^{s}}" />
 converges for
-<img class="inline" src="https://chart.googleapis.com/chart?cht=tx&chl=Re\left(s\right)%3E1" />
+<img style="display: inline;" src="https://chart.googleapis.com/chart?cht=tx&chl=Re\left(s\right)%3E1" />
  and it can be continued analitically to all complex values 
-<img class="inline" src="https://chart.googleapis.com/chart?cht=tx&chl=s\neq1" />. This extension of
+<img style="display: inline;" src="https://chart.googleapis.com/chart?cht=tx&chl=s\neq1" />. This extension of
 </p>
 
 <p>
@@ -70,20 +70,20 @@ converges for
 
 <p>
 is well defined and holomorphic in
-<img class="inline" src="https://chart.googleapis.com/chart?cht=tx&chl=\mathbb{C}\setminus\left\{ %201\right\}" />, it is denoted
-<img class="inline" src="https://chart.googleapis.com/chart?cht=tx&chl=\zeta" />
+<img style="display: inline;" src="https://chart.googleapis.com/chart?cht=tx&chl=\mathbb{C}\setminus\left\{ %201\right\}" />, it is denoted
+<img style="display: inline;" src="https://chart.googleapis.com/chart?cht=tx&chl=\zeta" />
 and is called the Riemann Zeta Function.
 </p>
 
 <p>
   <strong>Some properties of 
-<img class="inline" src="https://chart.googleapis.com/chart?cht=tx&chl=\zeta" />
+<img style="display: inline;" src="https://chart.googleapis.com/chart?cht=tx&chl=\zeta" />
   </strong>
 </p>
 
 <p>
 The zeta function can be written for
-<img class="inline" src="https://chart.googleapis.com/chart?cht=tx&chl=Re\left(s\right)%3E1" />
+<img style="display: inline;" src="https://chart.googleapis.com/chart?cht=tx&chl=Re\left(s\right)%3E1" />
 as the sum of a series and the Euler product formula allows us to write
 it as an infinite product:
 </p>
@@ -94,9 +94,9 @@ it as an infinite product:
 
 <p>
 One of the steps in proving that
-<img class="inline" src="https://chart.googleapis.com/chart?cht=tx&chl=\zeta" />
+<img style="display: inline;" src="https://chart.googleapis.com/chart?cht=tx&chl=\zeta" />
 is holomorphic in
-<img class="inline" src="https://chart.googleapis.com/chart?cht=tx&chl=\mathbb{C}\setminus\left\{ %201\right\}" />
+<img style="display: inline;" src="https://chart.googleapis.com/chart?cht=tx&chl=\mathbb{C}\setminus\left\{ %201\right\}" />
 consists in verifiying the following functional equation
 </p>
 
@@ -106,18 +106,18 @@ consists in verifiying the following functional equation
 
 <p>
 where
-<img class="inline" src="https://chart.googleapis.com/chart?cht=tx&chl=\Gamma" />
+<img style="display: inline;" src="https://chart.googleapis.com/chart?cht=tx&chl=\Gamma" />
 is the gamma function
-<img class="inline" src="https://chart.googleapis.com/chart?cht=tx&chl=\Gamma\left(z\right)%3D\int_{0}^{\infty}t^{z-1}e^{-t}dt" />.
+<img style="display: inline;" src="https://chart.googleapis.com/chart?cht=tx&chl=\Gamma\left(z\right)%3D\int_{0}^{\infty}t^{z-1}e^{-t}dt" />.
 The fact that it verifies this functional equation allows to prove
 many other interesting properties.
 </p>
 
 <p>
 In his original paper, Riemann suggested that all zeroes of
-<img class="inline" src="https://chart.googleapis.com/chart?cht=tx&chl=\zeta" />
+<img style="display: inline;" src="https://chart.googleapis.com/chart?cht=tx&chl=\zeta" />
 which are not trivial (
-<img class="inline" src="https://chart.googleapis.com/chart?cht=tx&chl=-2,-4,\ldots" />
+<img style="display: inline;" src="https://chart.googleapis.com/chart?cht=tx&chl=-2,-4,\ldots" />
 ) are in the line
 </p>
 
@@ -134,10 +134,10 @@ problem for over 150 years.
 Proving the Riemann Hypothesis would have many significant consequences.
 One of the most important ones is the precise caracterization of the
 distribution of prime numbers. Let's take the prime counting function
-<img class="inline" src="https://chart.googleapis.com/chart?cht=tx&chl=\pi\left(x\right)" />, which gives for each
-<img class="inline" src="https://chart.googleapis.com/chart?cht=tx&chl=x" />
+<img style="display: inline;" src="https://chart.googleapis.com/chart?cht=tx&chl=\pi\left(x\right)" />, which gives for each
+<img style="display: inline;" src="https://chart.googleapis.com/chart?cht=tx&chl=x" />
 the number of prime numbers less than or equal to
-<img class="inline" src="https://chart.googleapis.com/chart?cht=tx&chl=x" />. The Prime Number Theorem states that
+<img style="display: inline;" src="https://chart.googleapis.com/chart?cht=tx&chl=x" />. The Prime Number Theorem states that
 </p>
 
 <p>
@@ -180,6 +180,6 @@ equivalent to
 
 <p>
 for all
-<img class="inline" src="https://chart.googleapis.com/chart?cht=tx&chl=x>2657" />
+<img style="display: inline;" src="https://chart.googleapis.com/chart?cht=tx&chl=x>2657" />
 and this is indeed the tightest limit possible.
 </p>
