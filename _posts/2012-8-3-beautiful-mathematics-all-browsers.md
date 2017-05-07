@@ -16,7 +16,7 @@ beautiful mathematics.
     alt="MathJax logo" />
 
 <script type="text/javascript" async
-  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?...">
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML">
 </script>
 
 
@@ -35,12 +35,16 @@ For example:
     forming the boundary of \( D \).
     Then for every a in the interior of \( D \):
   </em>
+</p>
 
+<p>
   $$
     f(a) = \frac{1}{2 \pi i}
       \oint_{\gamma}{ \frac{f(z)}{z-a} dz}
   $$
+</p>
 
+<p>
   <em>
     where the contour integral is taken counter-clockwise.
   </em>
