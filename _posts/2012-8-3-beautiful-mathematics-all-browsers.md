@@ -12,10 +12,8 @@ beautiful mathematics.
 </p>
 
 
-<a href="http://www.mathjax.org/">
-  <img src="/images/mathjax.gif"
+<img src="/images/mathjax.gif"
     alt="MathJax logo" />
-</a>
 
 <script type="text/javascript" async
   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?...">
