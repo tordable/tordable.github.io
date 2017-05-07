@@ -10,12 +10,13 @@ Google just announced that
 And there is a new pricing model as part of the changes. So I decided to
 take a look at the resource usage of this blog and found out that the
 <a href="http://www.javiertordable.com/blog/rss.xml">RSS feed</a> is the
-most expensive request. I decided to optimize it by caching it in the
+most expensive request.
+</p>
+
+<p>I decided to optimize it by caching it in the
 memcache and 5 minutes later it's working in production (talking about
 fast software development cycles...).
 </p>
 
-<a href="/images/implement-memcache.png">
-  <img src="/images/implement-memcache.png"
+<img src="/images/implement-memcache.png"
     alt="Implementing memcache diff" width=500 />
-</a>
