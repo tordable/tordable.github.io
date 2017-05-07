@@ -70,7 +70,7 @@ converges for
 
 <p>
 is well defined and holomorphic in
-<img class="inline" src="https://chart.googleapis.com/chart?cht=tx&chl=\mathbb{C}\setminus\left\{%201\right\}" />, it is denoted
+<img class="inline" src="https://chart.googleapis.com/chart?cht=tx&chl=\mathbb{C}\setminus\left\{ %201\right\}" />, it is denoted
 <img class="inline" src="https://chart.googleapis.com/chart?cht=tx&chl=\zeta" />
 and is called the Riemann Zeta Function.
 </p>
@@ -96,7 +96,7 @@ it as an infinite product:
 One of the steps in proving that
 <img class="inline" src="https://chart.googleapis.com/chart?cht=tx&chl=\zeta" />
 is holomorphic in
-<img class="inline" src="https://chart.googleapis.com/chart?cht=tx&chl=\mathbb{C}\setminus\left\{%201\right\}" />
+<img class="inline" src="https://chart.googleapis.com/chart?cht=tx&chl=\mathbb{C}\setminus\left\{ %201\right\}" />
 consists in verifiying the following functional equation
 </p>
 
@@ -122,7 +122,7 @@ which are not trivial (
 </p>
 
 <p>
-  <img src="https://chart.googleapis.com/chart?cht=tx&chl=\left\{%20z\in\mathbb{C}:Re\left(z\right)%3D\frac{1}{2}\right\}" />
+  <img src="https://chart.googleapis.com/chart?cht=tx&chl=\left\{ %20z\in\mathbb{C}:Re\left(z\right)%3D\frac{1}{2}\right\}" />
 </p>
 
 <p>
