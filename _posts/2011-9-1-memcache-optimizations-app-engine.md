@@ -18,4 +18,4 @@ memcache and 5 minutes later it's working in production (talking about
 fast software development cycles...).
 </p>
 
-<img src="/images/implement-memcache.png" alt="Implementing memcache diff" width=500 />
+<img src="/images/implement-memcache.png" alt="Implementing memcache diff" />
