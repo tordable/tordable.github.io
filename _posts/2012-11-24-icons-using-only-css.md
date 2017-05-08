@@ -16,16 +16,12 @@ these image icons with icons made using only CSS.
 
 This has several advantages:
 
-<ul>
-  <li>4 HTTP calls less. And as the number of TCP connections from the browser
-    is limited, this would allow other content to be downloaded faster
-  <li>Potentially one DNS call less, because the g+ icon is in a different
-    domain than most of the blog
-  <li>A few less KB of data that need to be transmitted over the wire
-  <li>3 less requests to the AppEngine web server, for the images
-  <li>Nicer, more sleek look, which is resolution independent. Try zooming
-    into the icons!
-</ul>
+ * 4 HTTP calls less. And as the number of TCP connections from the browser is limited, this would allow other content to be downloaded faster
+ * Potentially one DNS call less, because the g+ icon is in a different domain than most of the blog
+ * A few less KB of data that need to be transmitted over the wire
+ * 3 less requests to the AppEngine web server, for the images
+ * Nicer, more sleek look, which is resolution independent. Try zooming into the icons!
+
 
 So here is how I did it. First, the general style for all the buttons. Using
 the same color schema as the rest of the blog:
@@ -119,14 +115,11 @@ Finally, the RSS button, which is the most complex one. The <em>waves</em> are
 made as circles, in which the left and bottom parts are hidden. It has 5 parts:
 
 
-<ul>
-  <li>The outside button, which similar to the other 3 buttons
-  <li>The dot at the bottom left
-  <li>A top right quadrant of a circle, in small size
-  <li>Another quadrant, but a little bit bigger
-  <li>Most importantly, a container box for the circles, which hides the rest
-    of the objects and allows to see only one quadrant
-</ul>
+ * The outside button, which similar to the other 3 buttons
+ * The dot at the bottom left
+ * A top right quadrant of a circle, in small size
+ * Another quadrant, but a little bit bigger
+ * Most importantly, a container box for the circles, which hides the rest of the objects and allows to see only one quadrant
 
 
 This is the HTML:
