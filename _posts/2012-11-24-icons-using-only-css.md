@@ -35,7 +35,7 @@ So here is how I did it. First, the general style for all the buttons. Using
 the same color schema as the rest of the blog:
 </p>
 
-```
+``` css
 /* Subscribe icons */
 .subscribe-icon {
   /* Little boxes on the right side. */
@@ -58,7 +58,7 @@ appropriate font, and gave it a reasonable size and position. I added
 a little bit of shadow to give it depth:
 </p>
 
-```
+``` css
 /* Lowercase t in a box. Similar to the twitter logo. */
 .twitter-icon {
   font-family: monospace;
@@ -78,7 +78,7 @@ The Google+ icon is very similar, but with
   overflow: hidden</a> to make the text out of the box dissappear:
 </p>
 
-```
+``` css
 /* g+ text overflowing from a box. Similar to the Google+ icon. */
 .gplus-icon {
   font-family: times, serif;
@@ -99,7 +99,7 @@ represents an envelope. This trick is commonly used in many sites, for example
 for zippys:
 </p>
 
-```
+``` html
 &lt;span class="subscribe-icon email-icon"&gt;&amp;#009993;&lt;/span&gt;
 ```
 
@@ -107,7 +107,7 @@ for zippys:
 The CSS of the button is basically the same:
 </p>
 
-```
+``` css
 /* Unicode envelope character inside of a box. */
 .email-icon {
   font-weight: 600;
@@ -137,7 +137,7 @@ made as circles, in which the left and bottom parts are hidden. It has 5 parts:
 This is the HTML:
 </p>
 
-```
+``` html
 &lt;a href="/blog/rss.xml"&gt;
   &lt;span class="subscribe-icon rss-icon"&gt;
     &lt;span class="rss-icon-dot"&gt;.&lt;/span&gt;
@@ -153,7 +153,7 @@ This is the HTML:
 And the CSS:
 </p>
 
-```
+``` css
 /* Outer box for the RSS icon. */
 .rss-icon {
   width: 22px;
