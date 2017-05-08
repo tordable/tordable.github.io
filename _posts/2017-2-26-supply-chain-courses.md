@@ -6,7 +6,9 @@ title: Supply Chain Courses
 
 During the last few years I've been doing a few online courses in Supply Chain. As you can see in previous posts like [this](http://www.javiertordable.com/supply-chain-design-course/) or [this](http://www.javiertordable.com/supply-chain-micromaster/).
 
-![](/images/igor-ovsyannykov-151127.jpg)
+
+![Containers](/images/igor-ovsyannykov-151127.jpg)
+
 
 And the courses have been very useful for my day to day job. Currently I'm an Engineering Manager at Google, in Supply Chain. The team that I manage works mostly in Data Integrity. Making sure that the data that other Supply Chain systems use for procurement, planning, manufacturing, logistics, etc. is as correct as possible. But I have worked in a variety of other Supply Chain areas over the last two years and change. Including planning (mostly factory build planning), sourcing, manufacturing quality, inventory management, and others. And throughout this time it has been very useful to have a good 36,000 feet view of how Supply chains are supposed to work in the real world. In particular to be able to understand what are the general industry practices versus the particular idiosyncrasies of our business teams and engineering systems.
 
