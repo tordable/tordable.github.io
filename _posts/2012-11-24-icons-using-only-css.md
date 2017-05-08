@@ -14,10 +14,7 @@ and Google+, which I update when there are new blog posts. I decided to replace
 these image icons with icons made using only CSS.
 </p>
 
-
-<p>
 This has several advantages:
-</p>
 
 <ul>
   <li>4 HTTP calls less. And as the number of TCP connections from the browser
@@ -30,10 +27,9 @@ This has several advantages:
     into the icons!
 </ul>
 
-<p>
 So here is how I did it. First, the general style for all the buttons. Using
 the same color schema as the rest of the blog:
-</p>
+
 
 ``` css
 /* Subscribe icons */
@@ -52,11 +48,10 @@ the same color schema as the rest of the blog:
 }
 ```
 
-<p>
 The twitter icon is probably the easiest one, I simply took a <em>t</em> in an
 appropriate font, and gave it a reasonable size and position. I added
 a little bit of shadow to give it depth:
-</p>
+
 
 ``` css
 /* Lowercase t in a box. Similar to the twitter logo. */
@@ -72,11 +67,11 @@ a little bit of shadow to give it depth:
 }
 ```
 
-<p>
+
 The Google+ icon is very similar, but with
 <a href="http://www.w3schools.com/cssref/pr_pos_overflow.asp">
   overflow: hidden</a> to make the text out of the box dissappear:
-</p>
+
 
 ``` css
 /* g+ text overflowing from a box. Similar to the Google+ icon. */
@@ -93,19 +88,19 @@ The Google+ icon is very similar, but with
 }
 ```
 
-<p>
+
 The email icon has another twist, it uses a special Unicode character that
 represents an envelope. This trick is commonly used in many sites, for example
 for zippys:
-</p>
+
 
 ``` html
 &lt;span class="subscribe-icon email-icon"&gt;&amp;#009993;&lt;/span&gt;
 ```
 
-<p>
+
 The CSS of the button is basically the same:
-</p>
+
 
 ``` css
 /* Unicode envelope character inside of a box. */
@@ -119,10 +114,10 @@ The CSS of the button is basically the same:
 }
 ```
 
-<p>
+
 Finally, the RSS button, which is the most complex one. The <em>waves</em> are
 made as circles, in which the left and bottom parts are hidden. It has 5 parts:
-</p>
+
 
 <ul>
   <li>The outside button, which similar to the other 3 buttons
@@ -133,9 +128,9 @@ made as circles, in which the left and bottom parts are hidden. It has 5 parts:
     of the objects and allows to see only one quadrant
 </ul>
 
-<p>
+
 This is the HTML:
-</p>
+
 
 ``` html
 &lt;a href="/blog/rss.xml"&gt;
@@ -149,9 +144,9 @@ This is the HTML:
 &lt;/a&gt;
 ```
 
-<p>
+
 And the CSS:
-</p>
+
 
 ``` css
 /* Outer box for the RSS icon. */
@@ -218,16 +213,15 @@ And the CSS:
 }
 ```
 
-<p>
+
 As the end result, this is how the icons look like, made with just a few
 bytes of CSS:
-</p>
+
 
 <img src="/images/css-icons.png"
   alt="Icons made using only CSS">
 
-<p>
+
 I hope that was useful. If you have a website check out what icons you can
 convert to CSS. And if you liked the post, don't forget to share using the
 Google+ button.
-</p>
