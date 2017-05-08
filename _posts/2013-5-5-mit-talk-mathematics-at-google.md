@@ -1,6 +1,6 @@
 ---
 layout: post
-title: MIT Talk: Mathematics at Google
+title: MIT Talk, Mathematics at Google
 ---
 
 <p>
