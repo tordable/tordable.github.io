@@ -9,4 +9,4 @@ Dave Cutler is one of the best software engineers in Microsoft, and arguably in 
 
 I think there are many valuable lessons for other engineers: the uncompromising approach to quality, the ability to lead by example, the world-class technical knowledge on one specific area (operating systems and kernels) and the vision to apply that knowledge to very different businesses. A must read for any practicing software engineer (link).
 
-http://news.microsoft.com/features/the-engineers-engineer-computer-industry-luminaries-salute-dave-cutlers-five-decade-long-quest-for-quality/#sm.000u49q7cc86f9p11q61dhsg9xgd1
+See also [the press release](http://news.microsoft.com/features/the-engineers-engineer-computer-industry-luminaries-salute-dave-cutlers-five-decade-long-quest-for-quality/#sm.000u49q7cc86f9p11q61dhsg9xgd1 )
