@@ -27,18 +27,18 @@ and trailing whitespaces at the end of the line
 </p>
 
 ``` lisp
-;; Special fonts for > 80 chars, tabs and trailing whitespace.</span>
+;; Special fonts for > 80 chars, tabs and trailing whitespace.
 (custom-set-faces
-  <span class="nocode">&#39;</span>(my-long-line-face ((((class color)) (:weight bold))) t)
-  <span class="nocode">&#39;</span>(my-trailing-space-face ((((class color)) (:background "PeachPuff"))) t))
+  '(my-long-line-face ((((class color)) (:weight bold))) t)
+  '(my-trailing-space-face ((((class color)) (:background "PeachPuff"))) t))
 
-;; Mark lines longer than 80 characters, and indicate trailing whitespace.</span>
-(add-hook <span class="nocode">&#39;</span>font-lock-mode-hook
+;; Mark lines longer than 80 characters, and indicate trailing whitespace.
+(add-hook 'font-lock-mode-hook
    (function (lambda ()
      (setq font-lock-keywords
        (append font-lock-keywords
-         <span class="nocode">&#39;</span>(("^.\\{81,\\}$" (0 <span class="nocode">&#39;</span>my-long-line-face t))
-           ("[ \t]+$" (0 <span class="nocode">&#39;</span>my-trailing-space-face t))))))))
+         '(("^.\\{81,\\}$" (0 'my-long-line-face t))
+           ("[ \t]+$" (0 'my-trailing-space-face t))))))))
 ```
 
 <p> The second tip is to enable emacs to highligt links, to be able to
@@ -49,15 +49,15 @@ C-c &lt;RET&gt;.
 </p>
 
 ``` lisp
-;; Add Chrome to the $PATH.</span>
-(add-to-list <span class="nocode">&#39;</span>exec-path "/opt/google/chrome")
+;; Add Chrome to the $PATH.
+(add-to-list 'exec-path "/opt/google/chrome")
 
-;; Set it as default.</span>
-(setq browse-url-browser-function <span class="nocode">&#39;</span>browse-url-generic
+;; Set it as default.
+(setq browse-url-browser-function 'browse-url-generic
       browse-url-generic-program "chrome")
 
-;; After loading the file, follow links.</span>
-(add-hook <span class="nocode">&#39;</span>find-file-hook <span class="nocode">&#39;</span>goto-address-mode)
+;; After loading the file, follow links.
+(add-hook 'find-file-hook 'goto-address-mode)
 ```
 
 <p>
