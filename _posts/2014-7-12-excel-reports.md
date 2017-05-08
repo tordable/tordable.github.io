@@ -3,13 +3,11 @@ layout: post
 title: Excel Reports
 ---
 
-<p>
 Everybody who has spent some time working in a business of any size knows that
 Excel is ubiquitous. It's surprising that there are so few companies out there
 working in the spreadsheet world.
-</p>
 
-<p>
+
 Recently I had to create a bunch of Excel reports, and I took some time to
 explore ideas on how to structure a library for easy report creation.
 I took the excellent
@@ -17,11 +15,8 @@ I took the excellent
 library and built a few conveniences on top of it. Check out the first
 iteration of <a href="https://github.com/tordable/XlsxReports">XlsxReports</a>
 in my Github page.
-</p>
 
-<p>
 The code to create a report looks like this:
-</p>
 
 ``` python
 #!/usr/bin/python2
@@ -73,15 +68,11 @@ if __name__ == '__main__':
   main()
 ```
 
-<p>
 and generates an Excel spreadsheet like the following:
-</p>
 
 <a href="https://github.com/tordable/XlsxReports">
 <img src="/images/spreadsheet.png"
   alt="A spreadsheet generated with Python"/>
 </a>
 
-<p>
 Please, let me know if you find it useful!
-</p>
