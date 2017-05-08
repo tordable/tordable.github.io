@@ -7,7 +7,7 @@ title: Excel Reports
 Everybody who has spent some time working in a business of any size knows that
 Excel is ubiquitous. It's surprising that there are so few companies out there
 working in the spreadsheet world.
-<p>
+</p>
 
 <p>
 Recently I had to create a bunch of Excel reports, and I took some time to
