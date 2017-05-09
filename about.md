@@ -2,6 +2,7 @@
 layout: page
 title: About
 permalink: /about/
+redirect_from: "/contact/"
 ---
 
 I work at <a href="http://www.google.com/">Google</a> as Engineering Manager, in the Seattle office. Before that, I worked at <a href="http://www.microsoft.com">Microsoft</a>, doing search relevance algorithms in Live Search (currently Bing). And before I worked for a short time at <a href="http://www.mckinsey.com">McKinsey</a>, as a Business Analyst intern.

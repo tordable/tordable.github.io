@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Finance AI
+redirect_from: "/projects/finance-ai/"
+redirect_from: "/research/finance-ai/"
 ---
 
 <a href="http://financeai.org">FinanceAI</a> is an open source project with the goal of providing advanced Artificial Intelligence, Statistical and Mathematical tools for amateur and sophisticated investors. The purpose was to develop a complete algorithmic trading platform with comprehensive AI and Quantitative Finance libraries. It would also provide high performance algorithms. I started this project in early 2008, but so far it didn't get past the first version, mostly because of lack of time.
