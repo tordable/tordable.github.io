@@ -5,6 +5,8 @@ Title: GitHub Pages as a Blogging Platform
 
 I used Ghost for a while. It's a simple and straightforward platform that simply gets out of the way and lets you write and publish a blog. And I've been a happy customer of the hosted version, paying a bit less than $100 a year for it. However, recently Ghost decided to raise [prices](https://ghost.org/pricing/ ) by more than 100% and target a higher end market. At which point it's hard for me to justify the expense. So I began looking for alternatives.
 
+![](/images/blogging.jpg)
+
 One reasonable approach would have been to install Ghost in a shared VM and use the open source version instead of the hosted one. And there are quite a few cloud providers that provide quick installs of Ghost, like for example [Digital Ocean](https://www.digitalocean.com/community/tutorials/how-to-use-the-digitalocean-ghost-application ), which is fairly affordable, starting at 5$ a month. Another one would be [Scaleway](https://www.digitalocean.com/pricing/#droplet ), which is even cheaper, at 3 Euro a month.
 
 Of course, I could also have switched completely to a platform like [Medium](https://medium.com/@tordable ), which has some advantages, like an embedded sharing mechanism, and a great looking template. However, that would have implied giving up control over all the content and structure of the blog. Including for example the pattern of the URLs. Medium ends URLs in a random sequence of characters. It would have been a hassle to add all the required redirects to prevent old pages from breaking.
