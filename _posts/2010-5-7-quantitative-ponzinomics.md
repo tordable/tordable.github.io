@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Quantitative Ponzinomics
+redirect_from: "/blog/2010/05/07/quantitative-ponzinomics"
 ---
 
 <p>
