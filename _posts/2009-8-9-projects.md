@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Projects
-redirect_from: "/research/"
+redirect_from: "/research"
 ---
 
 Here are some of the projects that I worked on over the last few years:
