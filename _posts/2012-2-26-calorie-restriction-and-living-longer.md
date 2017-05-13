@@ -21,7 +21,7 @@ behind their increased longevity has captured the mind of
 biogerontologists, who have spent
 decades investigating the causes, mechanisms and consequences of
 aging.
-<a href="http://www.javiertordable.com/blog/2011/08/19/modern-quest-for-immortality">
+<a href="http://www.javiertordable.com/modern-quest-for-immortality/">
   Dr. Aubrey de Grey</a>, the leader of the strategies for engineered negligible
 senescence (SENS) foundation, suggests that
 </p>
