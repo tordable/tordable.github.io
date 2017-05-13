@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Enigma, the Hidden Secret of the Third Reich
+redirect_from: "/blog/2011/12/11/enigma-hidden-secret-third-reich"
 ---
 
 <p>
