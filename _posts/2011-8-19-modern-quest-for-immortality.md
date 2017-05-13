@@ -1,6 +1,7 @@
 ---
 layout: post
 title: The Modern Quest for Immortality
+redirect_from: "/blog/2011/08/19/modern-quest-for-immortality"
 ---
 
 
