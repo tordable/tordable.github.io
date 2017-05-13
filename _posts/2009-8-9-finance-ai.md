@@ -2,6 +2,7 @@
 layout: post
 title: Finance AI
 redirect_from: "/projects/finance-ai/"
+redirect_from: "/projects/finance-ai"
 redirect_from: "/research/finance-ai/"
 ---
 
