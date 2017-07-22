@@ -4,7 +4,7 @@ title: Calorie Restriction and Living Longer
 ---
 
 <p>
-During the twentieth century the life expectancy grew from an average of 47 years to about 70-80 years, in part because of improved healthcare and hygiene as well as the development of antibiotics and vaccines. In some places even greater incidence of extraordinary life spans has even been observed, like the Japanese from Okinawa, who have the <a href="http://edition.cnn.com/2008/HEALTH/12/02/okinawa.aging/index.html">highest number of centenaries in the world</a>.
+During the 20th century the life expectancy grew from an average of 47 years to about 70-80 years, in part because of improved healthcare and hygiene as well as the development of antibiotics and vaccines. In some places even greater incidence of extraordinary life spans has even been observed, like the Japanese from Okinawa, who have the <a href="http://edition.cnn.com/2008/HEALTH/12/02/okinawa.aging/index.html">highest number of centenaries in the world</a>.
 </p>
 
 
