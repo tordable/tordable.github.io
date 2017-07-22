@@ -12,6 +12,9 @@ cryptography has been a key military technology. For example,
 used a simple encryption technique to communicate with his generals.
 Starting from a message text, the method replaces a letter for another
 letter in the alphabet that comes after one or several positions.
+</p>
+
+<p>
 For example, if the secret message is:
 </p>
 
