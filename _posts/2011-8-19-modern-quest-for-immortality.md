@@ -4,7 +4,6 @@ title: The Modern Quest for Immortality
 redirect_from: "/blog/2011/08/19/modern-quest-for-immortality"
 ---
 
-
 <p>
 Human interest in the possibility of rejuvenation begins in
 ancient times. Around 200BC the Chinese emperor Qin Shi Huang became
@@ -12,6 +11,7 @@ obsessed with his own mortality and sent the famous alchemist Xu Fu to
 find the Peng Lai islands (where immortal beings were believed to
 live) and return with the elixir of life.
 </p>
+
 
 <p>
 Starting in the
