@@ -10,10 +10,6 @@ ancient times. Around 200BC the Chinese emperor Qin Shi Huang became
 obsessed with his own mortality and sent the famous alchemist Xu Fu to
 find the Peng Lai islands (where immortal beings were believed to
 live) and return with the elixir of life.
-</p>
-
-
-<p>
 Starting in the
 Middle Ages, European alchemists began a quest for a substance that
 was not only able to transform metal into gold, but also rejuvenate
