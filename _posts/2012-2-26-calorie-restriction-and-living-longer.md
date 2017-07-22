@@ -3,26 +3,9 @@ layout: post
 title: Calorie Restriction and Living Longer
 ---
 
-During the twentieth century the life expectancy grew
-from an average of 47 years to about 70-80 years, in part because of
-improved healthcare and hygiene as well as the development of
-antibiotics and vaccines. In some places even greater incidence
-of extraordinary life spans has even been observed, like the
-Japanese from Okinawan, who have the <a href="http://edition.cnn.com/2008/HEALTH/12/02/okinawa.aging/index.html">highest number of centenaries in the world</a>.
+During the twentieth century the life expectancy grew from an average of 47 years to about 70-80 years, in part because of improved healthcare and hygiene as well as the development of antibiotics and vaccines. In some places even greater incidence of extraordinary life spans has even been observed, like the Japanese from Okinawa, who have the <a href="http://edition.cnn.com/2008/HEALTH/12/02/okinawa.aging/index.html">highest number of centenaries in the world</a>.
 
-
-<p>This cannot be
-explained by the same improvements that led to the extension of life
-expectancy elsewhere in the world. The quest to unveil the reasons
-behind their increased longevity has captured the mind of
-biogerontologists, who have spent
-decades investigating the causes, mechanisms and consequences of
-aging.
-<a href="http://www.javiertordable.com/modern-quest-for-immortality/">
-  Dr. Aubrey de Grey</a>, the leader of the strategies for engineered negligible
-senescence (SENS) foundation, suggests that
-</p>
-
+This cannot be explained by the same improvements that led to the extension of life expectancy elsewhere in the world. The quest to unveil the reasons behind their increased longevity has captured the mind of biogerontologists, who have spent decades investigating the causes, mechanisms and consequences of aging. <a href="http://www.javiertordable.com/modern-quest-for-immortality/">Dr. Aubrey de Grey</a>, the leader of the strategies for engineered negligible senescence (SENS) foundation, suggests that
 
 
 > Aging exists in nature for just the same reason that aging exists
@@ -30,14 +13,7 @@ senescence (SENS) foundation, suggests that
 > are required to combat it, just as mechanics and their ilk are
 > required to combat the aging of man-made objects.
 
-
-<p>
-Today, with the help of modern medicine and science,
-researchers have been making great progress in understanding how
-the aging process works and how we can control or even reverse it
-to some extent. The SENS foundation (and its affiliated researchers) has
-been pivotal to this effort, being involved in bringing innovation
-such
+Today, with the help of modern medicine and science, researchers have been making great progress in understanding how the aging process works and how we can control or even reverse it to some extent. The SENS foundation (and its affiliated researchers) has been pivotal to this effort, being involved in bringing innovation such
 as <a href="http://sens.org/sens-research/extra-mural/projects/immunorejuvenation-at-arizona">rejuvenating
 the immune system to better fight disease</a> in later years or
 <a href="http://www.parkinsons.org.uk/about_us/news/news_items/all_news/stem_cells_through_the_nose.aspx">using
@@ -46,7 +22,6 @@ biogerontologists have also made remarkable advancements like the
 development of a
 <a href="http://www.sciencedaily.com/releases/2011/12/111207113552.htm">drug
    that might reverse aging-related decline of the brain.</a>
-</p>
 
 <p>
 While these new techniques and breakthroughs are very exciting, we are
