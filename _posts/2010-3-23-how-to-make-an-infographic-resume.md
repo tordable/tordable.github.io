@@ -1,6 +1,8 @@
 ---
 layout: post
 title: How to Make an Infographic Resume
+redirect_from:
+  - "/blog/2010/03/23/how-to-make-an-infographic-resume"
 ---
 
 <script type="text/javascript"
