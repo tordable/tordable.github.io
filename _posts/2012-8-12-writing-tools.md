@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Writing Tools
+redirect_from:
+  - "/blog/2012/08/12/writing-tools"
 ---
 
 <p>
