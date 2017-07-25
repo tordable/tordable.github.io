@@ -1,6 +1,8 @@
 ---
 layout: post
 title: A short introduction to the Riemann Zeta Function
+redirect_from:
+  - "/blog/2011/03/04/short-introduction-riemann-zeta-function"
 ---
 
 <p>
