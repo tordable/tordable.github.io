@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Mathematics at Google
+redirect_from:
+  - "/blog/2012/08/24/mathematics-at-google"
 ---
 
 <p>
