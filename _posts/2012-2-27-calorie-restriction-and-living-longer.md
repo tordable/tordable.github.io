@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Calorie Restriction and Living Longer
+redirect_from:
+  - "/blog/2012/02/26/calorie-restriction-and-living-longer"
 ---
 
 
