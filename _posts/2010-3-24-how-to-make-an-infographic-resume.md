@@ -6,16 +6,6 @@ redirect_from:
 ---
 
 
-
-<script type="text/javascript"
-        src="https://www.google.com/jsapi">
-</script>
-<script type="text/javascript">
-  google.load('visualization', '1',{packages: ['annotatedtimeline']});
-  google.load('visualization', '1', {packages: ['table']});
-</script>
-
-
 <p>
 <strong>Infographics</strong>, or information graphics are visual
 representations of data.
@@ -25,6 +15,17 @@ conveys a message that is clear and helps to extract conclusions, but
 also a message that is precise and based on the data, without transforming
 or manipulating the data in dishonest ways.
 </p>
+
+
+
+<script type="text/javascript"
+        src="https://www.google.com/jsapi">
+</script>
+<script type="text/javascript">
+  google.load('visualization', '1',{packages: ['annotatedtimeline']});
+  google.load('visualization', '1', {packages: ['table']});
+</script>
+
 
 
 <p>
