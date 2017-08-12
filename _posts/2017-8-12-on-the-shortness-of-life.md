@@ -8,7 +8,7 @@ During one of my recent flights I completed a short book from [Seneca](https://e
 who eventually became an advisor to emperor Nero. “On the shortness of life” is a letter to Paulinus,
 his father in law, in which he reviews many timeless lessons on how to live life.
 
-![Bust of Seneca](images/seneca.jpg)
+![Bust of Seneca](/images/seneca.jpg)
 
 Image courtesy of [Jean-Pol GRANDMONT](https://commons.wikimedia.org/wiki/File:0_Sénèque_-_Musée_du_Prado_-_Cat._144_-_(2).JPG)
 
