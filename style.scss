@@ -197,7 +197,6 @@ img {
 
 .site-info {
   float: left;
-  background: $white;
   
   @include mobile {
     float: none;
@@ -216,8 +215,18 @@ img {
   letter-spacing: 1px;
 }
 
+a .site-name {
+  border: 10px solid white; 
+  position: relative;
+  left: -10px;
+}
+
 .site-description {
   margin: -5px 0 0 0;
+
+  border: 10px solid white;
+  position: relative;
+  left: -10px;
 
   @include mobile {
     margin: 3px 0;
