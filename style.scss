@@ -213,26 +213,21 @@ img {
   font-weight: bold;
   font-size: 40px;
   letter-spacing: 1px;
-  
-  a {
-    background: white;
-    border: 10px solid white; 
-    position: relative;
-    left: -10px;
-  }
 }
 
 .site-description {
   margin: -5px 0 0 0;
 
-  background: white;
-  border: 10px solid white;
-  position: relative;
-  left: -10px;
-
   @include mobile {
     margin: 3px 0;
   }
+}
+
+.white-backdrop {
+  background: white;
+  border: 10px solid white; 
+  position: relative;
+  left: -10px; 
 }
 
 nav {
