@@ -197,7 +197,9 @@ img {
 
 .site-info {
   float: left;
-
+  background: $white;
+  margin: 5px white;
+  
   @include mobile {
     float: none;
     display: block;
@@ -208,7 +210,6 @@ img {
 .site-name {
   margin: 0;
   color: $darkGray;
-  background: $white;
   cursor: pointer;
   font-family: $sans;
   font-weight: bold;
@@ -218,7 +219,6 @@ img {
 
 .site-description {
   margin: -5px 0 0 0;
-  background: $white;
 
   @include mobile {
     margin: 3px 0;
