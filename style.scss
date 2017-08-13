@@ -215,7 +215,8 @@ img {
   letter-spacing: 1px;
 }
 
-a .site-name {
+a.site-name {
+  background: white;
   border: 10px solid white; 
   position: relative;
   left: -10px;
@@ -224,6 +225,7 @@ a .site-name {
 .site-description {
   margin: -5px 0 0 0;
 
+  background: white;
   border: 10px solid white;
   position: relative;
   left: -10px;
