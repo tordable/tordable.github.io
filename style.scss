@@ -213,13 +213,13 @@ img {
   font-weight: bold;
   font-size: 40px;
   letter-spacing: 1px;
-}
-
-a.site-name {
-  background: white;
-  border: 10px solid white; 
-  position: relative;
-  left: -10px;
+  
+  a {
+    background: white;
+    border: 10px solid white; 
+    position: relative;
+    left: -10px;
+  }
 }
 
 .site-description {
