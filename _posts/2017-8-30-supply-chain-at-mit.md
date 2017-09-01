@@ -9,7 +9,7 @@ And the Supply Chain department is widely considered one of the best in the worl
 It would have been hard to imagine that the online course I started almost three years ago
 resulted in studying in person at MIT, in a fantastic learning experience.
 
-During the last 3 years EdX, the online learning platform, has been runnign a series of courses
+During the last 3 years EdX, the online learning platform, has been running a series of courses
 in Supply Chain. I talked about these [many times before](http://www.javiertordable.com/supply-chain/).
 They cover a wide spectrum of Supply Chain topics. From traditional inventory management to
 Enterprise Resource Management systems. One of the most interesting aspects is that these courses
