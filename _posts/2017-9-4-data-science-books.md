@@ -3,7 +3,7 @@ layout: post
 title: Data Science Books
 ---
 
-Data science is a discipline that uses scientific methods, statistics, computer science and business management in order
+Data science is a discipline that uses scientific methods, statistics and computer science in order
 to solve business problems using data. Recently it has become incredibly popular, thanks to the multitude of
 open source frameworks, cheaper compute resources and especially the increase in the
 amount of data that is being generated and captured. Data science can be applied to a variety of areas,
