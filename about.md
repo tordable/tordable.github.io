@@ -6,7 +6,7 @@ redirect_from: "/contact/"
 ---
 
 
-Javier is an engineering leader with a proven track record building innovative software. In his nine years at Google he has been part of Search, Ads, Supply Chain for Data Centers and Cloud. As Tech Lead in Webmaster Tools he built Big Data pipelines at web scale. In Ads he launched the premier reporting platform for internal sales teams. During his time in Supply Chain he was a key architect that drove the vision for end to end automation and managed the data quality team. And as a Technical Director in the Office of the CTO in Google Cloud, he helps top worldwide companies with their Big Data and AI strategy.
+Javier is an engineering leader with a proven track record building innovative software. In his nine years at Google he has been part of Search, Ads, Supply Chain for Data Centers and Cloud. As Tech Lead in Webmaster Tools he built Big Data pipelines at web scale. In Ads he launched the premier reporting platform for internal sales teams. During his time in Supply Chain he was a key architect that drove the vision for end to end automation and managed the data quality team. And as a Technical Director in the Office of the CTO in Google Cloud, he helps the world’s largest companies with their Big Data and AI strategy.
 
 
 ![Javier Tordable](/images/javier_tordable_s.jpg)
