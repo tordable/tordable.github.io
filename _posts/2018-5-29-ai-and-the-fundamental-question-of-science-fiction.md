@@ -25,7 +25,7 @@ Why is this important? Why is artificial intelligence so different than other te
 
 We are still many years or decades away from such a milestone. But this is why it’s so important that we start thinking now about how to make sure that this AI has our best interest in mind. To make sure that it’s a technology for the benefit of mankind. And if we make that happen, the benefits will be truly astonishing. From cures to diseases, to extremely efficient and sustainable ways to use the planet resources to new scientific discoveries that may enable the human race to explore the stars.
 
-![Progressive growing of GANs](images/generative-adversarial-networks.jpg)
+![Progressive growing of GANs](/images/generative-adversarial-networks.jpg)
 
 Image source: Progressive growing of GANs for improved quality, stability, and variation Karras et al., ICLR’18. 2 of these faces are computer generated.
 
