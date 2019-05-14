@@ -20,10 +20,10 @@ avatar: https://avatars2.githubusercontent.com/u/968256?s=70
 
 # Includes an icon in the footer for each username you enter
 footer-links:
-  github: tordable
-  facebook: javier.tordable
-  twitter: tordable
   linkedin: jtordable
+  twitter: tordable
+  github: tordable
+  facebook:
   googleplus:
   rss: rss # just type anything here for a working RSS icon
   flickr:
