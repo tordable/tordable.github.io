@@ -15,6 +15,13 @@ Well, here is a very easy way to do it with a dozen lines of
 Python.
 </p>
 
+<p>
+Don't forget to follow me on twitter: <a class="twitter-follow-button"
+  href="https://twitter.com/tordable"
+  data-size="large">
+Follow @tordable</a>  
+</p>
+
 {% highlight python %}
 # Resize all images in a directory to half the size.
 #
