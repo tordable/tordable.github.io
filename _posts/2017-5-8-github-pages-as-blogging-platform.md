@@ -18,3 +18,10 @@ The key that makes this workflow practical is that Github pages is tightly integ
 Jekyll also supports templates, including a small library of [predefined templates](https://help.github.com/articles/creating-a-github-pages-site-with-the-jekyll-theme-chooser/ ). The quality and variety are not really comparable to Wordpress. However, the level of customization is fantastic. Also whereas many Wordpress templates are complex and full of undocumented code, Jekyll templates are very simple and easy to modify, and at the same time quite powerful. Including, for example, [defining variables](https://jekyllrb.com/docs/variables/ ) for each blog post in the source markdown file, and have the HTML generator use that data.
 
 The most useful resource that I found to make this transition is this article from [Barry Clark](https://www.smashingmagazine.com/2014/08/build-blog-jekyll-github-pages/ ) together with his bare-bones site template in [Github](https://github.com/barryclark/jekyll-now ). I was able to port my blog from Ghost to Github + Jekyll without changing anything substantial in the templates. I updated the styling, fonts and so on, but I didn't have to update any HTML templates. All in all, the transition took a bit longer than expected because many of my blog posts were originally written in HTML, instead of Markdown. And I had to update the formatting, JavaScript library includes, and update a bunch of broken links. But the end result seems to work very well. Tell me if you like the new design!
+
+<p>
+Don't forget to follow me on twitter: <a class="twitter-follow-button"
+  href="https://twitter.com/tordable"
+  data-size="large">
+Follow @tordable</a>  
+</p>
