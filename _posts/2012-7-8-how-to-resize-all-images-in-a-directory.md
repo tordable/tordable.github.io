@@ -1,6 +1,7 @@
 ---
 layout: post
 title: How to Resize All Images in a Directory
+excerpt_separator: <!--more-->
 ---
 
 <p>
@@ -9,6 +10,8 @@ bulk process all the images in a directory. Either to resize
 them to a smaller size to share them, or do some other simple
 transformation.
 </p>
+
+<!--more-->
 
 <p>
 Well, here is a very easy way to do it with a dozen lines of
