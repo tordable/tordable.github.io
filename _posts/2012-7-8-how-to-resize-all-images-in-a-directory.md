@@ -22,7 +22,8 @@ Don't forget to follow me on twitter: <a class="twitter-follow-button"
 Follow @tordable</a>  
 </p>
 
-```python
+<p>
+{% highlight python %}
 # Resize all images in a directory to half the size.
 #
 # Save on a new file with the same name but with "small_" prefix
@@ -49,4 +50,5 @@ for file_name in os.listdir(directory):
   output.save(output_file_name, "JPEG", quality = 95)
 
 print("All done")
-```
+{% endhighlight %}
+</p>
