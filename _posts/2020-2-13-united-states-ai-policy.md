@@ -51,6 +51,6 @@ The memorandum suggests a few potential opportunities to collaborate with indust
 
 # 7. It does not include procurement
 
-> The US government, across its many agencies is one of the largest consumers of information technology in the world. And because of that it has a tremendous impact in the industry. An encouragement to buy technology that incorporates advanced AI, or that will lead to the development of AI would be very significant. Unfortunately, the policy doesn’t include any reference to US purchases of technology, and how to use those to foster innovation.
+The US government, across its many agencies is one of the largest consumers of information technology in the world. And because of that it has a tremendous impact in the industry. An encouragement to buy technology that incorporates advanced AI, or that will lead to the development of AI would be very significant. Unfortunately, the policy doesn’t include any reference to US purchases of technology, and how to use those to foster innovation.
 
 What do you think? Is this policy enough? Or is it missing important elements to foster AI innovation in the USA?
