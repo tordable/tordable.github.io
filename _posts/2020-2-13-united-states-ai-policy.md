@@ -7,7 +7,7 @@ AI will change the way that we work, the way that we interact with each other an
 
 In my role as Technical Director at Google Cloud I have conversations with companies and governments from around the world on AI and how to use it to achieve high impact results. These are just my personal opinions. But I’d like to share some insights on AI regulation and how to make it useful for everybody.
 
-The White House recently released guidelines for the use of AI by federal agencies. The document is available [here](https://www.whitehouse.gov/wp-content/uploads/2020/01/Draft-OMB-Memo-on-Regulation-of-AI-1-7-19.pdf), and I have included a few excerpts below. In general, this is a good initial step to incentivize and structure the regulation of AI by US agencies, but there are several areas where it falls short.
+The White House recently released guidelines for the use of AI by government agencies. The document is available [here](https://www.whitehouse.gov/wp-content/uploads/2020/01/Draft-OMB-Memo-on-Regulation-of-AI-1-7-19.pdf), and I have included a few excerpts below. In general, this is a good initial step to incentivize and structure the regulation of AI by US agencies, but there are several areas where it falls short.
 
 
 ![U.S. Capitol](/images/capitol.jpg)
