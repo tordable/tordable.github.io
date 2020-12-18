@@ -9,6 +9,8 @@ problems where they haven't trypically been as involved, for example in the Life
 
 This was part of a series of events called [Matrix](https://www.matrix-inst.org.au/events-01/online-seminars/), with a long list of very distinguished speakers. 
 
+![Matrix seminars](/images/matrix-seminar.jpg)
+
 Please watch the talk in YouTube.
 
 {% include youtube.html id="RAnCw9KvwlY" %}
