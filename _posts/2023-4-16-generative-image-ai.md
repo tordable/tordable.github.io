@@ -3,9 +3,9 @@ layout: post
 title: Generative AI for Images
 ---
 
-When I think of AI capabilities I tend to classify them in two. First, doing things that are impossible for humans. Second, doing things that humans can do but faster or cheaper.
+When I think of AI capabilities I tend to classify them in two. First, doing things that are impossible for humans. Second, doing things that humans can do, but faster or cheaper.
 
-An example of the first is asking Google Bard to search across a million papers and answer questions about them. There's not way a human can or will ever be able to read a million scientific papers to answer a question. 
+An example of the first is asking Google Bard to search across a million papers and answer questions about them. There's no way a human can or will ever be able to read a million scientific papers to answer a question. 
 
 An example of the second is image generation. Using an image generation model is like having a team of photographers, graphic designers, and 3d artists on demand ready to create anything you can imagine. 
 
