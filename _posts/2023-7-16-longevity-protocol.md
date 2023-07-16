@@ -6,7 +6,7 @@ title: My Longevity Protocol
 Who wouldn't want to live a longer, healthier life? As it turns out not everybody is interested in longevity, but society as a whole
 is waking up to the idea that we could fine tune our bodies lo live longer that we normally would. 
 
-One story that many of us have seen in the news is how Bryan Johnson a former tech entrepreneus supposedly spent over two million dollars a year
+One story that many of us have seen in the news is how Bryan Johnson a former tech entrepreneur supposedly spent over two million dollars a year
 in a longevity protocol.
 And he certainly looks younger than his biological age indicates. He has done a whole bunch of tests that show that his body is 
 performing like someone much younger too.
