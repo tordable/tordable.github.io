@@ -44,7 +44,7 @@ The type and length of exercise probably doesn't have as much impact as how regu
 day could be almost as beneficial as a couple of hours. 
 
 My weekly exercise routine now includes a combination of cardiovascular workouts and resistance training.
-I found that this not only keeps me physically fit but also boosts my mental health and wellbeing. Remember, the aim is not just
+I found that this not only keeps me physically fit but also boosts my mental health and well-being. Remember, the aim is not just
 to live longer but to live well.
 
 Resistance training is crucial as we age. It helps maintain muscle mass, strength, and functional abilities, 
