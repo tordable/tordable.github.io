@@ -22,7 +22,7 @@ in a nursing home or reaching 100 and living an independent lifestyle.
 
 # Healthy lifestyle
 
-My longevity protocol and the core of a healthy lifestyle is built around a is built upon three pillars: good sleep, regular exercise,
+My longevity protocol and the core of a healthy lifestyle is built around three pillars: good sleep, regular exercise,
 and proper nutrition. Each of these aspects is crucial and complementary to the others. These are non-negotiable and there is substantial
 irrefutable evidence that they are essential for good health and longevity.
 
@@ -35,7 +35,7 @@ itself, balances hormone levels, and solidifies memory.
 I now try to get 7-9 hours of quality sleep every night. Implementing a regular sleep schedule, creating a sleep-friendly environment,
 and reducing exposure to screens before bedtime are key steps in this process.
 
-A good reference for sleep is [Why we sleep](https://www.amazon.com/Why-We-Sleep-Unlocking-Dreams/dp/1501144316).
+A good reference for sleep is [Why we sleep by Matthew Walker](https://www.amazon.com/Why-We-Sleep-Unlocking-Dreams/dp/1501144316).
 
 ## Regular Exercise
 
