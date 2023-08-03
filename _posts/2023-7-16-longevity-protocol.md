@@ -149,7 +149,7 @@ So I take a Urolithin A supplement to potentially counteract this aspect of agin
 I regularly have hibiscus tea, at least once a week. Hibiscus is known for its potential to lower blood pressure. Increasing blood
 pressure can cause all sorts of complications as we age. Hibiscus is a natural and scientifically proven effective way to lower blood pressure.
 
-## The Misses: Pterostilbene and Berberine
+## Two compounds that didn't work for me: Pterostilbene and Berberine
 
 Pterostilbene, a compound related to resveratrol, was one of the things I tried. Despite its potential anti-aging benefits, 
 I had to stop it as it significantly increased my cholesterol levels, which happens to be a known side effect.
