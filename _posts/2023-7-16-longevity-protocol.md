@@ -253,3 +253,5 @@ Also, I think it's important keeping things reasonable. Many of us like to trave
 But a day or two without exercise is not a big deal. There is a balance between keeping a strict healthy lifestyle and enjoying a few vices here and there.
 
 It's not just about adding years to life, but life to years.
+
+If you are interested in longevity, reach out to me on [Twitter](https://twitter.com/tordable) or [LinkedIn](https://www.linkedin.com/in/jtordable/).
