@@ -216,3 +216,5 @@ revelando una piel más fresca y de aspecto más joven debajo. Y dos veces al a�
 Este es un artículo bastante largo, pero el nivel de esfuerzo involucrado en implementar estas prácticas es realmente muy bajo. Una buena higiene del sueño se convierte en un hábito. Una o dos horas de ejercicio a la semana no es un compromiso de mucho tiempo. Cocinar alimentos saludables lleva el mismo tiempo o menos que cocinar alimentos poco saludables. Tomo la mayoría de mis suplementos en un batido una vez al día, que preparo en menos de 5 minutos.
 
 Además, creo que es importante que el nivel de esfuerzo no sea muy elevado. A muchos de nosotros nos gusta viajar, por ejemplo, y es difícil mantener estos hábitos mientras viajamos. Pero uno o dos días sin ejercicio no es gran problema. Existe un equilibrio entre mantener un estricto estilo de vida saludable y disfrutar de algunos vicios aquí y allá. No se trata sólo de añadir años a la vida, sino vida a los años.
+
+Si estás interesado en longevidad, no dudes en ponerte en contacto via [Twitter](https://twitter.com/tordable) o [LinkedIn](https://www.linkedin.com/in/jtordable/).
