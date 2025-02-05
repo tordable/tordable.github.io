@@ -254,4 +254,11 @@ But a day or two without exercise is not a big deal. There is a balance between 
 
 It's not just about adding years to life, but life to years.
 
+<p>
+Don't forget to follow me on twitter: <a class="twitter-follow-button"
+  href="https://twitter.com/tordable"
+  data-size="large">
+Follow @tordable</a>  
+</p>
+
 If you are interested in longevity, reach out to me on [Twitter](https://twitter.com/tordable) or [LinkedIn](https://www.linkedin.com/in/jtordable/).
