@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bakoon SCL · Amplifiers built one at a time</title>
+  <meta name="description" content="Zero global feedback. One ten-millionth of a second. Amplifiers built one at a time in Kumamoto, Japan since 1974.">
+  <meta name="theme-color" content="#08090a">
+  <meta property="og:title" content="Bakoon SCL · Amplifiers built one at a time">
+  <meta property="og:description" content="Zero global feedback. One ten-millionth of a second. Built one at a time in Kumamoto, Japan since 1974.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="images/hero.jpg">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%2308090a'/%3E%3Ccircle cx='32' cy='32' r='23' fill='none' stroke='%23c98a5b' stroke-width='2'/%3E%3Cpath d='M14 36c6-16 12 16 18 0s12-16 18 0' fill='none' stroke='%23f3efe7' stroke-width='2'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <noscript>
+    <style>
+      .reveal { opacity: 1; transform: none; }
+      .hero-title .line > span { transform: none; animation: none; }
+    </style>
+  </noscript>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="scroll-progress" aria-hidden="true"><span id="progress-bar"></span></div>
+  <div class="grain" aria-hidden="true"></div>
+
+  <header class="site-header" id="site-header">
+    <a class="brand" href="#top" aria-label="Bakoon SCL home">
+      <svg class="brand-mark" viewBox="0 0 44 44" aria-hidden="true">
+        <circle cx="22" cy="22" r="20" fill="none" stroke="currentColor" stroke-width="1"/>
+        <path d="M8 25c4.5-12 9 12 13.5 0s9-12 14.5 0" fill="none" stroke="currentColor" stroke-width="1.25"/>
+      </svg>
+      <span class="brand-word">
+        <span class="brand-name">BAKOON</span>
+        <span class="brand-sub">SATRI CIRCUIT LABORATORY</span>
+      </span>
+    </a>
+
+    <nav class="desktop-nav" aria-label="Primary">
+      <a href="#satri">SATRI</a>
+      <a href="#amplifiers">Amplifiers</a>
+      <a href="#craft">Craft</a>
+      <a href="#heritage">Heritage</a>
+      <a href="#listen">Listen</a>
+    </nav>
+
+    <div class="header-end">
+      <a class="header-cta" href="#amplifiers">Explore the range <span aria-hidden="true">↗</span></a>
+      <button class="menu-toggle" id="menu-toggle" aria-expanded="false" aria-controls="mobile-menu">
+        <span class="menu-toggle-label">Menu</span>
+        <span class="menu-toggle-bars" aria-hidden="true"><i></i><i></i></span>
+      </button>
+    </div>
+  </header>
+
+  <div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+    <nav aria-label="Mobile">
+      <a href="#satri"><span>01</span>SATRI</a>
+      <a href="#amplifiers"><span>02</span>Amplifiers</a>
+      <a href="#craft"><span>03</span>Craft</a>
+      <a href="#heritage"><span>04</span>Heritage</a>
+      <a href="#listen"><span>05</span>Listen</a>
+    </nav>
+    <div class="mobile-menu-foot">
+      <p>Kumamoto, Japan<br>Since 1974</p>
+      <a href="https://bakoon-scl.shop-pro.jp/" target="_blank" rel="noopener">SATRI Shop ↗</a>
+    </div>
+  </div>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <canvas id="wave-canvas" aria-hidden="true"></canvas>
+      <div class="hero-glow" aria-hidden="true"></div>
+
+      <div class="hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow reveal">Kumamoto, Japan <span class="dot">·</span> Since 1974</p>
+          <h1 class="hero-title">
+            <span class="line"><span>The first</span></span>
+            <span class="line"><span><em>microsecond</em></span></span>
+            <span class="line"><span>is where the</span></span>
+            <span class="line"><span>music lives.</span></span>
+          </h1>
+          <p class="hero-lede reveal">The shortest path from recording to room. Zero global feedback. Zero input attenuation. A signal delay of one ten-millionth of a second. Built one at a time in Kumamoto, Japan, for fifty years.</p>
+          <div class="hero-actions reveal">
+            <a class="btn btn-primary" href="#amplifiers">
+              <span>Meet the amplifiers</span>
+              <span class="btn-arrow" aria-hidden="true">↘</span>
+            </a>
+            <a class="text-link" href="#satri">The SATRI principle <span aria-hidden="true">→</span></a>
+          </div>
+          <dl class="hero-stats reveal">
+            <div>
+              <dt>Circuit delay</dt>
+              <dd>1<small>/10,000,000</small><span>s</span></dd>
+            </div>
+            <div>
+              <dt>Global feedback</dt>
+              <dd>0<span>loops</span></dd>
+            </div>
+            <div>
+              <dt>Same workshop</dt>
+              <dd>50<span>years</span></dd>
+            </div>
+          </dl>
+        </div>
+
+        <div class="hero-visual reveal">
+          <div class="orbit-stamp" aria-hidden="true">
+            <svg viewBox="0 0 220 220">
+              <defs>
+                <path id="stampPath" d="M110,110 m-82,0 a82,82 0 1,1 164,0 a82,82 0 1,1 -164,0"/>
+              </defs>
+              <text>
+                <textPath href="#stampPath" startOffset="0">SATRI CIRCUIT LABORATORY · KUMAMOTO JAPAN · EST. 1974 · </textPath>
+              </text>
+              <circle cx="110" cy="110" r="54" fill="none" stroke="currentColor" stroke-width=".6" opacity=".5"/>
+              <path d="M76 116c9-24 18 24 27 0s18-24 27 0" fill="none" stroke="currentColor" stroke-width="1"/>
+            </svg>
+          </div>
+
+          <figure class="media hero-media" data-image="hero.jpg">
+            <div class="fallback-art" aria-hidden="true">
+              <div class="fallback-amp"><span class="fallback-knob"></span><span class="fallback-vent"></span></div>
+            </div>
+            <img src="images/hero.jpg" alt="Bakoon SCL flagship power amplifier in a dark studio" fetchpriority="high" onerror="this.closest('.media').classList.add('is-missing'); this.remove();">
+            <figcaption class="media-tag">AMP-5522 <span>Digital control / Flagship</span></figcaption>
+          </figure>
+
+          <div class="hero-side-label" aria-hidden="true">音を、待たせない。</div>
+        </div>
+      </div>
+
+      <div class="hero-foot">
+        <span class="hero-foot-left">SCL / SATRI CIRCUIT LABORATORY</span>
+        <a class="scroll-cue" href="#satri"><span class="scroll-line" aria-hidden="true"></span>Scroll to listen</a>
+        <span class="hero-foot-right">KUMAMOTO · 32.8°N 130.7°E</span>
+      </div>
+    </section>
+
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span>Zero global feedback</span><i>◆</i><span>Zero input attenuation</span><i>◆</i><span>One ten-millionth of a second</span><i>◆</i><span>SATRI circuit</span><i>◆</i><span>Built one at a time</span><i>◆</i><span>Since 1974</span><i>◆</i>
+        <span>Zero global feedback</span><i>◆</i><span>Zero input attenuation</span><i>◆</i><span>One ten-millionth of a second</span><i>◆</i><span>SATRI circuit</span><i>◆</i><span>Built one at a time</span><i>◆</i><span>Since 1974</span><i>◆</i>
+      </div>
+    </div>
+
+    <section class="manifesto section" id="satri">
+      <div class="section-head reveal">
+        <span class="section-index">01</span>
+        <span class="section-label">The principle</span>
+        <span class="section-rule" aria-hidden="true"></span>
+      </div>
+
+      <div class="manifesto-grid">
+        <h2 class="display reveal">Every stage you add is a decision <em>the music didn't ask for.</em></h2>
+        <div class="manifesto-copy">
+          <p class="reveal">Most amplifiers are born with an error and spend the rest of the circuit correcting it. Negative feedback compares the output to the input, then feeds the difference back. It lowers distortion on paper. It also bends time: the correction arrives after the note.</p>
+          <p class="reveal">SATRI starts somewhere else. Gain is set by the ratio of two resistors. The output device is asked to be accurate at the first attempt, so it never has to apologise for the first attempt. The signal travels forward; the timing stays intact.</p>
+          <p class="reveal">The leading edge, the breath before the bow, the room after the last chord. All of it arrives when it should.</p>
+          <div class="circuit-signature reveal">
+            <span class="sig-mark">SCL</span>
+            <span>SATRI V9.3 / HBK(I) second generation<br>In continuous development since 1989</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="principles">
+        <article class="principle reveal">
+          <span class="principle-num">01</span>
+          <h3>Gain by ratio</h3>
+          <p>Two resistors set the amplification. No global feedback loop is needed to correct the stage, so there is no loop delay to smear the leading edge.</p>
+        </article>
+        <article class="principle reveal">
+          <span class="principle-num">02</span>
+          <h3>Current is a language</h3>
+          <p>SATRI-LINK carries the signal as current over BNC. Preamplifier and power amplifier speak directly, with no voltage conversion in between.</p>
+        </article>
+        <article class="principle reveal">
+          <span class="principle-num">03</span>
+          <h3>Fast enough to disappear</h3>
+          <p>The SATRI circuit's delay is about one ten-millionth of a second. The CAP-1001M reaches 600 kHz and stays flat to 100 kHz.</p>
+        </article>
+        <article class="principle reveal">
+          <span class="principle-num">04</span>
+          <h3>Both inputs, one circuit</h3>
+          <p>HBK(I), now in its second generation, accepts voltage or current at the input without a buffer stage. Your source chooses the language.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="technology section" id="technology">
+      <div class="tech-inner">
+        <div class="tech-visual reveal">
+          <figure class="media tall-media" data-image="circuit.jpg">
+            <div class="fallback-art fallback-circuit" aria-hidden="true">
+              <span></span><span></span><span></span><span></span><span></span>
+            </div>
+            <img src="images/circuit.jpg" alt="Macro photograph of a SATRI circuit board with copper traces" loading="lazy" onerror="this.closest('.media').classList.add('is-missing'); this.remove();">
+            <figcaption class="media-tag">SATRI-IC <span>BPM-7110 series</span></figcaption>
+          </figure>
+          <div class="tech-callout" aria-hidden="true">
+            <span class="callout-line"></span>
+            <span>0.1% metal-film resistors<br>Critical signal path</span>
+          </div>
+        </div>
+
+        <div class="tech-copy">
+          <div class="section-head reveal">
+            <span class="section-index">02</span>
+            <span class="section-label">The circuit</span>
+            <span class="section-rule" aria-hidden="true"></span>
+          </div>
+          <h2 class="display reveal">Proof, <em>published.</em></h2>
+          <p class="tech-lede reveal">The shortest path is also the easiest to verify. These are published figures for the CAP-1001M, a 13-watt monoblock with a 0.6Ω output impedance and no global feedback.</p>
+
+          <dl class="spec-table reveal">
+            <div>
+              <dt>Circuit delay</dt>
+              <dd>~0.1<small>µs</small></dd>
+            </div>
+            <div>
+              <dt>Global feedback</dt>
+              <dd>None</dd>
+            </div>
+            <div>
+              <dt>Frequency range</dt>
+              <dd>1 Hz – 600 kHz</dd>
+            </div>
+            <div>
+              <dt>THD at 1W</dt>
+              <dd>0.024<small>%</small> <span>20 Hz</span></dd>
+            </div>
+            <div>
+              <dt>Damping factor</dt>
+              <dd>13.1–13.3 <span>0.1–10W</span></dd>
+            </div>
+            <div>
+              <dt>Input impedance</dt>
+              <dd>100<small>kΩ</small></dd>
+            </div>
+          </dl>
+
+          <p class="tech-note reveal">Published CAP-1001M specifications. THD at 20 Hz, 8Ω, 1W. Damping factor stays effectively flat across output level because there is no feedback loop to vary.</p>
+
+          <a class="text-link reveal" href="https://bakoon-scl.shop-pro.jp/?mode=f1" target="_blank" rel="noopener">Read the SATRI technical papers <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="products section" id="amplifiers">
+      <div class="section-head reveal">
+        <span class="section-index">03</span>
+        <span class="section-label">The range</span>
+        <span class="section-rule" aria-hidden="true"></span>
+      </div>
+
+      <div class="products-intro">
+        <h2 class="display reveal">Four ways in.<br><em>Each one necessary.</em></h2>
+        <p class="reveal">A deliberately small range, because every extra model is a compromise somewhere. Choose the power, the topology, and the inputs your system needs. Each model earns its place.</p>
+      </div>
+
+      <article class="flagship reveal">
+        <a class="flagship-media media" href="https://bakoon-scl.shop-pro.jp/?pid=183778110" target="_blank" rel="noopener" data-image="amp-5522.jpg" aria-label="AMP-5522 flagship power amplifier">
+          <div class="fallback-art" aria-hidden="true"><div class="fallback-amp"><span class="fallback-knob"></span><span class="fallback-vent"></span></div></div>
+          <img src="images/amp-5522.jpg" alt="Bakoon AMP-5522 flagship digital-control power amplifier" loading="lazy" onerror="this.closest('.media').classList.add('is-missing'); this.remove();">
+        </a>
+        <div class="flagship-copy">
+          <div class="flagship-top">
+            <span class="pill">The flagship</span>
+            <span class="mono muted">AMP-5522</span>
+          </div>
+          <h3>AMP-5522</h3>
+          <p class="flagship-sub">Digital-control power amplifier</p>
+          <p>The most complete expression of the SATRI generation in a single chassis. Digital control of gain and bias, the surface-mount generation, and the same commitment to getting it right at the first attempt.</p>
+          <div class="flagship-bottom">
+            <span class="price">¥820,000 <small>incl. tax</small></span>
+            <a class="text-link" href="https://bakoon-scl.shop-pro.jp/?pid=183778110" target="_blank" rel="noopener">Discover the flagship <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+      </article>
+
+      <div class="product-grid">
+        <article class="product reveal">
+          <a class="product-media media" href="https://bakoon-scl.shop-pro.jp/?pid=182520904" target="_blank" rel="noopener" data-image="cap-1001m.jpg" aria-label="CAP-1001M reference monoblock">
+            <div class="fallback-art" aria-hidden="true"><div class="fallback-amp"><span class="fallback-knob"></span><span class="fallback-vent"></span></div></div>
+            <img src="images/cap-1001m.jpg" alt="Bakoon CAP-1001M compact monaural power amplifier" loading="lazy" onerror="this.closest('.media').classList.add('is-missing'); this.remove();">
+            <span class="product-arrow" aria-hidden="true">↗</span>
+          </a>
+          <div class="product-body">
+            <div class="product-head">
+              <h3>CAP-1001M</h3>
+              <span class="mono muted">Monoblock</span>
+            </div>
+            <p class="product-tagline">The reference, distilled.</p>
+            <dl class="mini-specs">
+              <div><dt>Output</dt><dd>13W max / 11W clean</dd></div>
+              <div><dt>Bandwidth</dt><dd>1 Hz – 600 kHz</dd></div>
+            </dl>
+            <div class="product-foot">
+              <span class="price">¥160,000 <small>incl. tax</small></span>
+              <a class="circle-link" href="https://bakoon-scl.shop-pro.jp/?pid=182520904" target="_blank" rel="noopener" aria-label="View CAP-1001M at SATRI Shop">↗</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="product reveal">
+          <a class="product-media media" href="https://bakoon-scl.shop-pro.jp/?pid=165277812" target="_blank" rel="noopener" data-image="sca-7511.jpg" aria-label="SCA-7511 MK4 compact power amplifier">
+            <div class="fallback-art" aria-hidden="true"><div class="fallback-amp"><span class="fallback-knob"></span><span class="fallback-vent"></span></div></div>
+            <img src="images/sca-7511.jpg" alt="Bakoon SCA-7511 MK4 compact power amplifier" loading="lazy" onerror="this.closest('.media').classList.add('is-missing'); this.remove();">
+            <span class="product-arrow" aria-hidden="true">↗</span>
+          </a>
+          <div class="product-body">
+            <div class="product-head">
+              <h3>SCA-7511 MK4</h3>
+              <span class="mono muted">Stereo / mono</span>
+            </div>
+            <p class="product-tagline">The compact reference.</p>
+            <dl class="mini-specs">
+              <div><dt>Output</dt><dd>15W + 15W / 8Ω</dd></div>
+              <div><dt>Inputs</dt><dd>Voltage + current</dd></div>
+            </dl>
+            <div class="product-foot">
+              <span class="price">¥442,800 <small>incl. tax</small></span>
+              <a class="circle-link" href="https://bakoon-scl.shop-pro.jp/?pid=165277812" target="_blank" rel="noopener" aria-label="View SCA-7511 MK4 at SATRI Shop">↗</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="product reveal">
+          <a class="product-media media" href="https://bakoon-scl.shop-pro.jp/?pid=167941534" target="_blank" rel="noopener" data-image="pre-7610.jpg" aria-label="PRE-7610 Mk4 preamplifier">
+            <div class="fallback-art" aria-hidden="true"><div class="fallback-amp"><span class="fallback-knob"></span><span class="fallback-vent"></span></div></div>
+            <img src="images/pre-7610.jpg" alt="Bakoon PRE-7610 Mk4 current-source preamplifier" loading="lazy" onerror="this.closest('.media').classList.add('is-missing'); this.remove();">
+            <span class="product-arrow" aria-hidden="true">↗</span>
+          </a>
+          <div class="product-body">
+            <div class="product-head">
+              <h3>PRE-7610 Mk4</h3>
+              <span class="mono muted">Preamplifier</span>
+            </div>
+            <p class="product-tagline">Control, in current.</p>
+            <dl class="mini-specs">
+              <div><dt>Inputs</dt><dd>3 RCA + 2 SATRI-LINK</dd></div>
+              <div><dt>Circuit</dt><dd>SATRI-IC UL + HIBIKI</dd></div>
+            </dl>
+            <div class="product-foot">
+              <span class="price">¥478,400 <small>incl. tax</small></span>
+              <a class="circle-link" href="https://bakoon-scl.shop-pro.jp/?pid=167941534" target="_blank" rel="noopener" aria-label="View PRE-7610 Mk4 at SATRI Shop">↗</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="product reveal">
+          <a class="product-media media" href="https://bakoon-scl.shop-pro.jp/?pid=190899633" target="_blank" rel="noopener" data-image="hda-8210.jpg" aria-label="HDA-8210 headphone amplifier">
+            <div class="fallback-art" aria-hidden="true"><div class="fallback-amp"><span class="fallback-knob"></span><span class="fallback-vent"></span></div></div>
+            <img src="images/hda-8210.jpg" alt="Bakoon HDA-8210 headphone amplifier with headline headphones" loading="lazy" onerror="this.closest('.media').classList.add('is-missing'); this.remove();">
+            <span class="product-arrow" aria-hidden="true">↗</span>
+          </a>
+          <div class="product-body">
+            <div class="product-head">
+              <h3>HDA-8210</h3>
+              <span class="mono muted">Headphone</span>
+            </div>
+            <p class="product-tagline">Two ways to drive a headphone.</p>
+            <dl class="mini-specs">
+              <div><dt>Outputs</dt><dd>Voltage + current</dd></div>
+              <div><dt>THD</dt><dd>0.006% / 600Ω · 1mW</dd></div>
+            </dl>
+            <div class="product-foot">
+              <span class="price">¥140,000 <small>incl. tax</small></span>
+              <a class="circle-link" href="https://bakoon-scl.shop-pro.jp/?pid=190899633" target="_blank" rel="noopener" aria-label="View HDA-8210 at SATRI Shop">↗</a>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <p class="products-note reveal">Prices include Japanese consumption tax. International shipping and import duties are calculated separately. <a href="https://bakoon-scl.shop-pro.jp/" target="_blank" rel="noopener">See the full SATRI Shop range ↗</a></p>
+    </section>
+
+    <section class="craft section" id="craft">
+      <div class="craft-inner">
+        <figure class="media craft-media reveal" data-image="craft.jpg">
+          <div class="fallback-art fallback-craft" aria-hidden="true"><span></span><span></span><span></span></div>
+          <img src="images/craft.jpg" alt="Hands assembling a Bakoon amplifier at the Kumamoto workshop" loading="lazy" onerror="this.closest('.media').classList.add('is-missing'); this.remove();">
+          <figcaption class="media-tag">Kumamoto workshop <span>Assembly and measurement</span></figcaption>
+        </figure>
+
+        <div class="craft-copy">
+          <div class="section-head reveal">
+            <span class="section-index">04</span>
+            <span class="section-label">The craft</span>
+            <span class="section-rule" aria-hidden="true"></span>
+          </div>
+          <h2 class="display reveal">Still a workshop.<br><em>On purpose.</em></h2>
+          <p class="reveal">Bakoon Products was founded in Kumamoto in 1974. Fifty years later, the company is still deliberately small: one bench, one small team, and a designer who works in the same room where the amplifiers are assembled, measured, and heard.</p>
+          <p class="reveal">We stay small because it is the only way to hear the last five percent. Small is what we protect. A factory optimises for the average unit. A workshop can hear the difference between this one and the last one.</p>
+
+          <ul class="craft-rules reveal">
+            <li><span>01</span>One factory, in Kumamoto.</li>
+            <li><span>02</span>One line, one bench.</li>
+            <li><span>03</span>Every unit heard before it ships.</li>
+          </ul>
+
+          <p class="reveal">Most of what we make leaves Japan. If a fault appears in the first year, it goes back to the same bench that built it.</p>
+
+          <div class="craft-stats">
+            <div class="reveal">
+              <span class="stat-value">1974</span>
+              <span class="stat-label">Founded in Kumamoto</span>
+            </div>
+            <div class="reveal">
+              <span class="stat-value">50+</span>
+              <span class="stat-label">Years, one workshop</span>
+            </div>
+            <div class="reveal">
+              <span class="stat-value">89%</span>
+              <span class="stat-label">Sales outside Japan</span>
+            </div>
+            <div class="reveal">
+              <span class="stat-value">1</span>
+              <span class="stat-label">Bench, one line, one team</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="heritage section" id="heritage">
+      <div class="heritage-head">
+        <div>
+          <div class="section-head reveal">
+            <span class="section-index">05</span>
+            <span class="section-label">The record</span>
+            <span class="section-rule" aria-hidden="true"></span>
+          </div>
+          <h2 class="display reveal">Heritage, and<br><em>state of the art.</em></h2>
+        </div>
+        <p class="reveal">The SATRI circuit has been revised, measured, and rebuilt for thirty-seven years. Every generation removed something: a capacitor, a conversion, a correction. The latest HBK(I) is in its second generation, in current production. This is the record.</p>
+      </div>
+
+      <ol class="timeline">
+        <li class="reveal">
+          <span class="year">1974</span>
+          <div><h3>Bakoon Products is founded</h3><p>Audio manufacturing begins in Kumamoto, Japan.</p></div>
+        </li>
+        <li class="reveal">
+          <span class="year">1989</span>
+          <div><h3>SATRI V1.0</h3><p>The first SATRI amplifier, MORPHEUS. Gain set by two resistors; no global feedback.</p></div>
+        </li>
+        <li class="reveal">
+          <span class="year">1998</span>
+          <div><h3>The first SATRI-IC</h3><p>BPM-7110T hybrid IC. Super-SATRI output stages follow in the AMP-5520 series.</p></div>
+        </li>
+        <li class="reveal">
+          <span class="year">2007</span>
+          <div><h3>SATRI V9.0</h3><p>A new ultra-precision current mirror cuts distortion to one tenth. SATRI-IC-SP enters production.</p></div>
+        </li>
+        <li class="reveal">
+          <span class="year">2011</span>
+          <div><h3>SATRI V9.3</h3><p>Base-current error is corrected. SATRI-IC-EX and the higher-precision UL follow.</p></div>
+        </li>
+        <li class="reveal">
+          <span class="year">2013</span>
+          <div><h3>Best Sound, HIGH END Munich</h3><p>The circuit is recognised on the international stage.</p></div>
+        </li>
+        <li class="reveal">
+          <span class="year">2014</span>
+          <div><h3>AMP-5521</h3><p>A fully surface-mount amplifier, and a new generation of circuits built around it.</p></div>
+        </li>
+        <li class="reveal">
+          <span class="year">2016</span>
+          <div><h3>AMP-KUMAMOTO</h3><p>A limited model made in the wake of the Kumamoto earthquakes.</p></div>
+        </li>
+        <li class="reveal">
+          <span class="year">2019</span>
+          <div><h3>MJ Technology of the Year</h3><p>CAP-1001 and CAP-1004 both take awards from MJ Wireless &amp; Experiment.</p></div>
+        </li>
+        <li class="reveal">
+          <span class="year">2026</span>
+          <div><h3>HBK(I), second generation</h3><p>CAP-1001M introduces the latest input topology. SATRI V12 appears in the CAP-1005 DAC.</p></div>
+        </li>
+      </ol>
+    </section>
+
+    <section class="statement">
+      <div class="statement-inner">
+        <span class="statement-kicker reveal">The SATRI principle</span>
+        <blockquote class="reveal">The amplifier steps aside.<br><em>The music arrives.</em></blockquote>
+        <span class="statement-mark reveal">SCL · 1974</span>
+      </div>
+      <div class="statement-bg" aria-hidden="true">SATRI</div>
+    </section>
+
+    <section class="listen section" id="listen">
+      <div class="listen-inner">
+        <div class="listen-copy">
+          <div class="section-head reveal">
+            <span class="section-index">06</span>
+            <span class="section-label">Listen</span>
+            <span class="section-rule" aria-hidden="true"></span>
+          </div>
+          <h2 class="display reveal">Hear it <em>in person.</em></h2>
+          <p class="reveal">The range is deliberately small. Tell us about the room and the music, and we will tell you which amplifier fits. Write to us, or visit the workshop in Kumamoto.</p>
+          <div class="listen-details reveal">
+            <div>
+              <span class="mono muted">Workshop</span>
+              <p>Kumamoto, Japan<br>By appointment</p>
+            </div>
+            <div>
+              <span class="mono muted">Direct</span>
+              <p><a href="https://bakoon-scl.shop-pro.jp/?mode=inq" target="_blank" rel="noopener">SATRI Shop inquiry form ↗</a><br>Shipped from Kumamoto<br>Dealers in Korea and Australia</p>
+            </div>
+          </div>
+          <div class="listen-social reveal">
+            <a href="https://twitter.com/bp_satri" target="_blank" rel="noopener">X / Twitter</a>
+            <a href="https://facebook.com/bpsatri" target="_blank" rel="noopener">Facebook</a>
+            <a href="https://www.youtube.com/@SATRICircuitLaboratory" target="_blank" rel="noopener">YouTube</a>
+          </div>
+        </div>
+
+        <form class="listen-form reveal" id="listen-form" novalidate>
+          <div class="form-row">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" autocomplete="name" placeholder="Your name" required>
+          </div>
+          <div class="form-row">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" autocomplete="email" placeholder="you@domain.com" required>
+          </div>
+          <div class="form-row">
+            <label for="system">Current system</label>
+            <input id="system" name="system" type="text" placeholder="Speakers, source, room">
+          </div>
+          <div class="form-row">
+            <label for="message">What are you listening for?</label>
+            <textarea id="message" name="message" rows="3" placeholder="A few recordings, a room, a question."></textarea>
+          </div>
+          <button class="btn btn-primary form-submit" type="submit">
+            <span>Request a listening</span>
+            <span class="btn-arrow" aria-hidden="true">↗</span>
+          </button>
+          <p class="form-note">Concept form. No data is sent.</p>
+          <p class="form-success" id="form-success" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <span class="footer-eyebrow">SATRI CIRCUIT LABORATORY</span>
+        <a class="footer-wordmark" href="#top">BAKOON<span>SCL</span></a>
+        <p>Kumamoto, Japan.<br>Since 1974.</p>
+      </div>
+      <div class="footer-cols">
+        <div>
+          <span class="footer-label">Explore</span>
+          <a href="#satri">SATRI</a>
+          <a href="#amplifiers">Amplifiers</a>
+          <a href="#craft">Craft</a>
+          <a href="#heritage">Heritage</a>
+          <a href="#listen">Listen</a>
+        </div>
+        <div>
+          <span class="footer-label">Elsewhere</span>
+          <a href="https://bakoon-scl.shop-pro.jp/" target="_blank" rel="noopener">SATRI Shop ↗</a>
+          <a href="https://twitter.com/bp_satri" target="_blank" rel="noopener">X / Twitter ↗</a>
+          <a href="https://facebook.com/bpsatri" target="_blank" rel="noopener">Facebook ↗</a>
+          <a href="https://www.youtube.com/@SATRICircuitLaboratory" target="_blank" rel="noopener">YouTube ↗</a>
+        </div>
+        <div>
+          <span class="footer-label">Contact</span>
+          <a href="https://bakoon-scl.shop-pro.jp/?mode=inq" target="_blank" rel="noopener">Inquiry form ↗</a>
+          <a href="#listen">Request a listening</a>
+          <p class="footer-address">バクーンプロダクツ株式会社<br>Kumamoto, Japan</p>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="year">2026</span> SATRI Circuit Laboratory / Bakoon Products</span>
+      <span class="footer-disclaimer">Concept redesign, not the official Bakoon site. Product data from bakoon-scl.shop-pro.jp.</span>
+      <div class="footer-end">
+        <a class="footer-lang" href="index-jp.html">日本語</a>
+        <a href="#top">Back to top ↑</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>

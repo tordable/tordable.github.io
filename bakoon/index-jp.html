@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bakoon SCL · 一台ずつ組むアンプ</title>
+  <meta name="description" content="全段帰還ゼロ。1000万分の1秒。熊本で1974年から、一台ずつ組むアンプ。">
+  <meta name="theme-color" content="#08090a">
+  <meta property="og:title" content="Bakoon SCL · 一台ずつ組むアンプ">
+  <meta property="og:description" content="全段帰還ゼロ。1000万分の1秒。熊本で1974年から、一台ずつ。">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="images/hero.jpg">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%2308090a'/%3E%3Ccircle cx='32' cy='32' r='23' fill='none' stroke='%23c98a5b' stroke-width='2'/%3E%3Cpath d='M14 36c6-16 12 16 18 0s12-16 18 0' fill='none' stroke='%23f3efe7' stroke-width='2'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&family=Inter:wght@300;400;500;600&family=Noto+Sans+JP:wght@300;400;500;600&family=Noto+Serif+JP:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    html[lang="ja"] {
+      --serif: "Instrument Serif", "Noto Serif JP", "Hiragino Mincho ProN", "Yu Mincho", serif;
+      --sans: "Inter", "Noto Sans JP", "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif;
+      --mono: "IBM Plex Mono", "Noto Sans JP", "Hiragino Kaku Gothic ProN", monospace;
+    }
+    html[lang="ja"] .hero-title {
+      font-size: clamp(42px, 6.2vw, 90px);
+      font-weight: 500;
+      line-height: 1.08;
+      letter-spacing: 0.01em;
+    }
+    html[lang="ja"] .hero-title .line { padding-bottom: 0.08em; }
+    html[lang="ja"] .tech-copy .display { max-width: none; }
+    html[lang="ja"] .manifesto .display { max-width: none; }
+    html[lang="ja"] .statement blockquote { line-height: 1.14; }
+    html[lang="ja"] .nowrap { white-space: nowrap; }
+    html[lang="ja"] .hero-title em { font-style: normal; font-weight: 600; }
+    html[lang="ja"] .display {
+      font-size: clamp(38px, 5.3vw, 76px);
+      font-weight: 500;
+      line-height: 1.15;
+      letter-spacing: 0.01em;
+    }
+    html[lang="ja"] .display em,
+    html[lang="ja"] .statement blockquote em,
+    html[lang="ja"] .product-tagline,
+    html[lang="ja"] .marquee span { font-style: normal; }
+    html[lang="ja"] .product-tagline { font-weight: 500; }
+    html[lang="ja"] .display em,
+    html[lang="ja"] .statement blockquote em { font-weight: 600; }
+    html[lang="ja"] .marquee span { font-size: clamp(17px, 1.8vw, 25px); }
+    html[lang="ja"] .manifesto-copy p,
+    html[lang="ja"] .craft-copy > p,
+    html[lang="ja"] .listen-copy > p,
+    html[lang="ja"] .timeline p { line-height: 1.9; }
+    html[lang="ja"] .desktop-nav a,
+    html[lang="ja"] .header-cta,
+    html[lang="ja"] .menu-toggle-label,
+    html[lang="ja"] .section-label,
+    html[lang="ja"] .section-index,
+    html[lang="ja"] .eyebrow,
+    html[lang="ja"] .hero-stats dt,
+    html[lang="ja"] .media-tag,
+    html[lang="ja"] .price,
+    html[lang="ja"] .stat-label,
+    html[lang="ja"] .footer-label,
+    html[lang="ja"] .footer-eyebrow,
+    html[lang="ja"] .footer-bottom,
+    html[lang="ja"] .form-note,
+    html[lang="ja"] .products-note,
+    html[lang="ja"] .tech-note,
+    html[lang="ja"] .listen-social { letter-spacing: 0.08em; }
+    html[lang="ja"] .brand-sub { font-size: 8px; letter-spacing: 0.12em; }
+    @media (max-width: 640px) {
+      html[lang="ja"] .hero-title { font-size: clamp(38px, 11.5vw, 58px); }
+      html[lang="ja"] .display { font-size: clamp(36px, 10.5vw, 54px); }
+    }
+  </style>
+
+  <noscript>
+    <style>
+      .reveal { opacity: 1; transform: none; }
+      .hero-title .line > span { transform: none; animation: none; }
+    </style>
+  </noscript>
+</head>
+<body>
+  <a class="skip-link" href="#main">本文へスキップ</a>
+  <div class="scroll-progress" aria-hidden="true"><span id="progress-bar"></span></div>
+  <div class="grain" aria-hidden="true"></div>
+
+  <header class="site-header" id="site-header">
+    <a class="brand" href="#top" aria-label="Bakoon SCL ホーム">
+      <svg class="brand-mark" viewBox="0 0 44 44" aria-hidden="true">
+        <circle cx="22" cy="22" r="20" fill="none" stroke="currentColor" stroke-width="1"/>
+        <path d="M8 25c4.5-12 9 12 13.5 0s9-12 14.5 0" fill="none" stroke="currentColor" stroke-width="1.25"/>
+      </svg>
+      <span class="brand-word">
+        <span class="brand-name">BAKOON</span>
+        <span class="brand-sub">SATRI回路研究所</span>
+      </span>
+    </a>
+
+    <nav class="desktop-nav" aria-label="メインナビゲーション">
+      <a href="#satri">SATRI</a>
+      <a href="#amplifiers">アンプ</a>
+      <a href="#craft">工房</a>
+      <a href="#heritage">沿革</a>
+      <a href="#listen">試聴</a>
+    </nav>
+
+    <div class="header-end">
+      <a class="header-cta" href="#amplifiers">製品を見る <span aria-hidden="true">↗</span></a>
+      <button class="menu-toggle" id="menu-toggle" aria-expanded="false" aria-controls="mobile-menu">
+        <span class="menu-toggle-label">メニュー</span>
+        <span class="menu-toggle-bars" aria-hidden="true"><i></i><i></i></span>
+      </button>
+    </div>
+  </header>
+
+  <div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+    <nav aria-label="モバイルナビゲーション">
+      <a href="#satri"><span>01</span>SATRI</a>
+      <a href="#amplifiers"><span>02</span>アンプ</a>
+      <a href="#craft"><span>03</span>工房</a>
+      <a href="#heritage"><span>04</span>沿革</a>
+      <a href="#listen"><span>05</span>試聴</a>
+    </nav>
+    <div class="mobile-menu-foot">
+      <p>熊本、日本<br>1974年創業</p>
+      <a href="https://bakoon-scl.shop-pro.jp/" target="_blank" rel="noopener">SATRI Shop ↗</a>
+    </div>
+  </div>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <canvas id="wave-canvas" aria-hidden="true"></canvas>
+      <div class="hero-glow" aria-hidden="true"></div>
+
+      <div class="hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow reveal">熊本、日本 <span class="dot">·</span> 1974年創業</p>
+          <h1 class="hero-title">
+            <span class="line"><span>最初の</span></span>
+            <span class="line"><span><em>一瞬に、</em></span></span>
+            <span class="line"><span>音楽の</span></span>
+            <span class="line"><span>すべてがある。</span></span>
+          </h1>
+          <p class="hero-lede reveal">録音から部屋までの最短経路。全段帰還ゼロ。入力減衰ゼロ。<span class="nowrap">信号遅延は1000万分の1秒</span>。熊本で五十年、一台ずつ。</p>
+          <div class="hero-actions reveal">
+            <a class="btn btn-primary" href="#amplifiers">
+              <span>アンプを見る</span>
+              <span class="btn-arrow" aria-hidden="true">↘</span>
+            </a>
+            <a class="text-link" href="#satri">SATRIの原理 <span aria-hidden="true">→</span></a>
+          </div>
+          <dl class="hero-stats reveal">
+            <div>
+              <dt>回路遅延</dt>
+              <dd>1<small>/10,000,000</small><span>秒</span></dd>
+            </div>
+            <div>
+              <dt>全段帰還</dt>
+              <dd>0<span>ループ</span></dd>
+            </div>
+            <div>
+              <dt>同じ工房</dt>
+              <dd>50<span>年</span></dd>
+            </div>
+          </dl>
+        </div>
+
+        <div class="hero-visual reveal">
+          <div class="orbit-stamp" aria-hidden="true">
+            <svg viewBox="0 0 220 220">
+              <defs>
+                <path id="stampPath" d="M110,110 m-82,0 a82,82 0 1,1 164,0 a82,82 0 1,1 -164,0"/>
+              </defs>
+              <text>
+                <textPath href="#stampPath" startOffset="0">SATRI回路研究所 · 熊本 · 1974年創業 · </textPath>
+              </text>
+              <circle cx="110" cy="110" r="54" fill="none" stroke="currentColor" stroke-width=".6" opacity=".5"/>
+              <path d="M76 116c9-24 18 24 27 0s18-24 27 0" fill="none" stroke="currentColor" stroke-width="1"/>
+            </svg>
+          </div>
+
+          <figure class="media hero-media" data-image="hero.jpg">
+            <div class="fallback-art" aria-hidden="true">
+              <div class="fallback-amp"><span class="fallback-knob"></span><span class="fallback-vent"></span></div>
+            </div>
+            <img src="images/hero.jpg" alt="暗いスタジオに佇むBakoon SCLのフラッグシップ・パワーアンプ" fetchpriority="high" onerror="this.closest('.media').classList.add('is-missing'); this.remove();">
+            <figcaption class="media-tag">AMP-5522 <span>デジタル制御 / フラッグシップ</span></figcaption>
+          </figure>
+
+          <div class="hero-side-label" aria-hidden="true">音を、待たせない。</div>
+        </div>
+      </div>
+
+      <div class="hero-foot">
+        <span class="hero-foot-left">SCL / SATRI回路研究所</span>
+        <a class="scroll-cue" href="#satri"><span class="scroll-line" aria-hidden="true"></span>スクロールして聴く</a>
+        <span class="hero-foot-right">熊本 · 32.8°N 130.7°E</span>
+      </div>
+    </section>
+
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span>全段帰還ゼロ</span><i>◆</i><span>入力減衰ゼロ</span><i>◆</i><span>1000万分の1秒</span><i>◆</i><span>SATRI回路</span><i>◆</i><span>一台ずつ手組み</span><i>◆</i><span>1974年創業</span><i>◆</i>
+        <span>全段帰還ゼロ</span><i>◆</i><span>入力減衰ゼロ</span><i>◆</i><span>1000万分の1秒</span><i>◆</i><span>SATRI回路</span><i>◆</i><span>一台ずつ手組み</span><i>◆</i><span>1974年創業</span><i>◆</i>
+      </div>
+    </div>
+
+    <section class="manifesto section" id="satri">
+      <div class="section-head reveal">
+        <span class="section-index">01</span>
+        <span class="section-label">原理</span>
+        <span class="section-rule" aria-hidden="true"></span>
+      </div>
+
+      <div class="manifesto-grid">
+        <h2 class="display reveal">段を重ねるほど、<br>音楽は頼まぬ<br><em>判断を背負う。</em></h2>
+        <div class="manifesto-copy">
+          <p class="reveal">ほとんどのアンプは、誤差を抱えて生まれ、回路の残りすべてを使ってそれを補正する。負帰還は出力と入力を比べ、その差を入力へ戻す。数字の上では歪みが下がる。だが時間は曲がる。補正は、音のあとに届く。</p>
+          <p class="reveal">SATRIは別の場所から始める。利得は二本の抵抗の比で決まる。出力素子には最初から正確であることが求められ、あとから詫びる必要はない。信号は前へ進み、時間は乱れない。</p>
+          <p class="reveal">音の立ち上がり、弓が触れる前の息、最後の和音のあとの部屋。すべてが、あるべき時刻に届く。</p>
+          <div class="circuit-signature reveal">
+            <span class="sig-mark">SCL</span>
+            <span>SATRI V9.3 / HBK(I) 第二世代<br>1989年から開発を継続</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="principles">
+        <article class="principle reveal">
+          <span class="principle-num">01</span>
+          <h3>抵抗比で増幅</h3>
+          <p>二本の抵抗が増幅を決める。全段帰還で補正する必要がないため、立ち上がりを鈍らせるループ遅延もない。</p>
+        </article>
+        <article class="principle reveal">
+          <span class="principle-num">02</span>
+          <h3>電流という言語</h3>
+          <p>SATRI-LINKは信号を電流としてBNCで伝送する。プリアンプとパワーアンプは電圧変換を挟まず、直接つながる。</p>
+        </article>
+        <article class="principle reveal">
+          <span class="principle-num">03</span>
+          <h3>消えてなくなる速さ</h3>
+          <p>SATRI回路の遅延は約<span class="nowrap">1000万分の1秒</span>。CAP-1001Mは600kHzに達し、100kHzまでフラットだ。</p>
+        </article>
+        <article class="principle reveal">
+          <span class="principle-num">04</span>
+          <h3>二つの入力、一つの回路</h3>
+          <p>第二世代のHBK(I)は、電圧でも電流でも入力できる。バッファ段を介さず、ソースが言語を選ぶ。</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="technology section" id="technology">
+      <div class="tech-inner">
+        <div class="tech-visual reveal">
+          <figure class="media tall-media" data-image="circuit.jpg">
+            <div class="fallback-art fallback-circuit" aria-hidden="true">
+              <span></span><span></span><span></span><span></span><span></span>
+            </div>
+            <img src="images/circuit.jpg" alt="銅の配線が走るSATRI回路基板のマクロ写真" loading="lazy" onerror="this.closest('.media').classList.add('is-missing'); this.remove();">
+            <figcaption class="media-tag">SATRI-IC <span>BPM-7110シリーズ</span></figcaption>
+          </figure>
+          <div class="tech-callout" aria-hidden="true">
+            <span class="callout-line"></span>
+            <span>0.1%金属皮膜抵抗<br>信号の要所</span>
+          </div>
+        </div>
+
+        <div class="tech-copy">
+          <div class="section-head reveal">
+            <span class="section-index">02</span>
+            <span class="section-label">回路</span>
+            <span class="section-rule" aria-hidden="true"></span>
+          </div>
+          <h2 class="display reveal">公表された、<br><em>証明。</em></h2>
+          <p class="tech-lede reveal">最短経路は、検証も最も簡単だ。以下はCAP-1001Mの公表値。13Wのモノブロック、出力インピーダンス0.6Ω、全段帰還なし。</p>
+
+          <dl class="spec-table reveal">
+            <div>
+              <dt>回路遅延</dt>
+              <dd>~0.1<small>µs</small></dd>
+            </div>
+            <div>
+              <dt>全段帰還</dt>
+              <dd>なし</dd>
+            </div>
+            <div>
+              <dt>周波数特性</dt>
+              <dd>1 Hz – 600 kHz</dd>
+            </div>
+            <div>
+              <dt>歪率（1W時）</dt>
+              <dd>0.024<small>%</small> <span>20 Hz</span></dd>
+            </div>
+            <div>
+              <dt>ダンピングファクター</dt>
+              <dd>13.1–13.3 <span>0.1–10W</span></dd>
+            </div>
+            <div>
+              <dt>入力インピーダンス</dt>
+              <dd>100<small>kΩ</small></dd>
+            </div>
+          </dl>
+
+          <p class="tech-note reveal">CAP-1001Mの公表仕様。歪率は20Hz、8Ω、1W時。全段帰還がないため、ダンピングファクターは出力レベルに対してほぼ一定。</p>
+
+          <a class="text-link reveal" href="https://bakoon-scl.shop-pro.jp/?mode=f1" target="_blank" rel="noopener">SATRI技術資料を読む <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="products section" id="amplifiers">
+      <div class="section-head reveal">
+        <span class="section-index">03</span>
+        <span class="section-label">製品</span>
+        <span class="section-rule" aria-hidden="true"></span>
+      </div>
+
+      <div class="products-intro">
+        <h2 class="display reveal">四つの入口。<br><em>どれも必要。</em></h2>
+        <p class="reveal">意図的に小さなラインナップ。モデルを増やすほど、どこかに妥協が生まれるからだ。必要な出力、方式、入力を選ぶ。すべてのモデルに、存在理由がある。</p>
+      </div>
+
+      <article class="flagship reveal">
+        <a class="flagship-media media" href="https://bakoon-scl.shop-pro.jp/?pid=183778110" target="_blank" rel="noopener" data-image="amp-5522.jpg" aria-label="AMP-5522 フラッグシップ・パワーアンプ">
+          <div class="fallback-art" aria-hidden="true"><div class="fallback-amp"><span class="fallback-knob"></span><span class="fallback-vent"></span></div></div>
+          <img src="images/amp-5522.jpg" alt="Bakoon AMP-5522 フラッグシップ・デジタル制御パワーアンプ" loading="lazy" onerror="this.closest('.media').classList.add('is-missing'); this.remove();">
+        </a>
+        <div class="flagship-copy">
+          <div class="flagship-top">
+            <span class="pill">フラッグシップ</span>
+            <span class="mono muted">AMP-5522</span>
+          </div>
+          <h3>AMP-5522</h3>
+          <p class="flagship-sub">デジタル制御パワーアンプ</p>
+          <p>SATRI世代の完成形を一つの筐体に。利得とバイアスはデジタル制御、回路は表面実装の世代へ。最初から正確であることへの姿勢は、変わらない。</p>
+          <div class="flagship-bottom">
+            <span class="price">¥820,000 <small>税込</small></span>
+            <a class="text-link" href="https://bakoon-scl.shop-pro.jp/?pid=183778110" target="_blank" rel="noopener">フラッグシップを見る <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+      </article>
+
+      <div class="product-grid">
+        <article class="product reveal">
+          <a class="product-media media" href="https://bakoon-scl.shop-pro.jp/?pid=182520904" target="_blank" rel="noopener" data-image="cap-1001m.jpg" aria-label="CAP-1001M リファレンス・モノブロック">
+            <div class="fallback-art" aria-hidden="true"><div class="fallback-amp"><span class="fallback-knob"></span><span class="fallback-vent"></span></div></div>
+            <img src="images/cap-1001m.jpg" alt="Bakoon CAP-1001M コンパクト・モノラルパワーアンプ" loading="lazy" onerror="this.closest('.media').classList.add('is-missing'); this.remove();">
+            <span class="product-arrow" aria-hidden="true">↗</span>
+          </a>
+          <div class="product-body">
+            <div class="product-head">
+              <h3>CAP-1001M</h3>
+              <span class="mono muted">モノブロック</span>
+            </div>
+            <p class="product-tagline">リファレンスを、凝縮。</p>
+            <dl class="mini-specs">
+              <div><dt>出力</dt><dd>最大13W / 無歪11W</dd></div>
+              <div><dt>帯域</dt><dd>1 Hz – 600 kHz</dd></div>
+            </dl>
+            <div class="product-foot">
+              <span class="price">¥160,000 <small>税込</small></span>
+              <a class="circle-link" href="https://bakoon-scl.shop-pro.jp/?pid=182520904" target="_blank" rel="noopener" aria-label="SATRI ShopでCAP-1001Mを見る">↗</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="product reveal">
+          <a class="product-media media" href="https://bakoon-scl.shop-pro.jp/?pid=165277812" target="_blank" rel="noopener" data-image="sca-7511.jpg" aria-label="SCA-7511 MK4 コンパクト・パワーアンプ">
+            <div class="fallback-art" aria-hidden="true"><div class="fallback-amp"><span class="fallback-knob"></span><span class="fallback-vent"></span></div></div>
+            <img src="images/sca-7511.jpg" alt="Bakoon SCA-7511 MK4 コンパクト・パワーアンプ" loading="lazy" onerror="this.closest('.media').classList.add('is-missing'); this.remove();">
+            <span class="product-arrow" aria-hidden="true">↗</span>
+          </a>
+          <div class="product-body">
+            <div class="product-head">
+              <h3>SCA-7511 MK4</h3>
+              <span class="mono muted">ステレオ / モノ</span>
+            </div>
+            <p class="product-tagline">小さなリファレンス。</p>
+            <dl class="mini-specs">
+              <div><dt>出力</dt><dd>15W + 15W / 8Ω</dd></div>
+              <div><dt>入力</dt><dd>電圧 + 電流</dd></div>
+            </dl>
+            <div class="product-foot">
+              <span class="price">¥442,800 <small>税込</small></span>
+              <a class="circle-link" href="https://bakoon-scl.shop-pro.jp/?pid=165277812" target="_blank" rel="noopener" aria-label="SATRI ShopでSCA-7511 MK4を見る">↗</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="product reveal">
+          <a class="product-media media" href="https://bakoon-scl.shop-pro.jp/?pid=167941534" target="_blank" rel="noopener" data-image="pre-7610.jpg" aria-label="PRE-7610 Mk4 プリアンプ">
+            <div class="fallback-art" aria-hidden="true"><div class="fallback-amp"><span class="fallback-knob"></span><span class="fallback-vent"></span></div></div>
+            <img src="images/pre-7610.jpg" alt="Bakoon PRE-7610 Mk4 電流伝送プリアンプ" loading="lazy" onerror="this.closest('.media').classList.add('is-missing'); this.remove();">
+            <span class="product-arrow" aria-hidden="true">↗</span>
+          </a>
+          <div class="product-body">
+            <div class="product-head">
+              <h3>PRE-7610 Mk4</h3>
+              <span class="mono muted">プリアンプ</span>
+            </div>
+            <p class="product-tagline">電流で、制御する。</p>
+            <dl class="mini-specs">
+              <div><dt>入力</dt><dd>RCA×3 + SATRI-LINK×2</dd></div>
+              <div><dt>回路</dt><dd>SATRI-IC UL + HIBIKI</dd></div>
+            </dl>
+            <div class="product-foot">
+              <span class="price">¥478,400 <small>税込</small></span>
+              <a class="circle-link" href="https://bakoon-scl.shop-pro.jp/?pid=167941534" target="_blank" rel="noopener" aria-label="SATRI ShopでPRE-7610 Mk4を見る">↗</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="product reveal">
+          <a class="product-media media" href="https://bakoon-scl.shop-pro.jp/?pid=190899633" target="_blank" rel="noopener" data-image="hda-8210.jpg" aria-label="HDA-8210 ヘッドホンアンプ">
+            <div class="fallback-art" aria-hidden="true"><div class="fallback-amp"><span class="fallback-knob"></span><span class="fallback-vent"></span></div></div>
+            <img src="images/hda-8210.jpg" alt="Bakoon HDA-8210 ヘッドホンアンプとハイエンド・ヘッドホン" loading="lazy" onerror="this.closest('.media').classList.add('is-missing'); this.remove();">
+            <span class="product-arrow" aria-hidden="true">↗</span>
+          </a>
+          <div class="product-body">
+            <div class="product-head">
+              <h3>HDA-8210</h3>
+              <span class="mono muted">ヘッドホン</span>
+            </div>
+            <p class="product-tagline">二つの駆動方式。</p>
+            <dl class="mini-specs">
+              <div><dt>出力</dt><dd>電圧 + 電流</dd></div>
+              <div><dt>THD</dt><dd>0.006% / 600Ω · 1mW</dd></div>
+            </dl>
+            <div class="product-foot">
+              <span class="price">¥140,000 <small>税込</small></span>
+              <a class="circle-link" href="https://bakoon-scl.shop-pro.jp/?pid=190899633" target="_blank" rel="noopener" aria-label="SATRI ShopでHDA-8210を見る">↗</a>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <p class="products-note reveal">価格は消費税込。海外発送の送料および輸入関税は別途計算されます。 <a href="https://bakoon-scl.shop-pro.jp/" target="_blank" rel="noopener">SATRI Shopの全ラインナップを見る ↗</a></p>
+    </section>
+
+    <section class="craft section" id="craft">
+      <div class="craft-inner">
+        <figure class="media craft-media reveal" data-image="craft.jpg">
+          <div class="fallback-art fallback-craft" aria-hidden="true"><span></span><span></span><span></span></div>
+          <img src="images/craft.jpg" alt="熊本の工房で、バクーンのアンプを組み立てる手元" loading="lazy" onerror="this.closest('.media').classList.add('is-missing'); this.remove();">
+          <figcaption class="media-tag">熊本の工房 <span>組み立てと測定</span></figcaption>
+        </figure>
+
+        <div class="craft-copy">
+          <div class="section-head reveal">
+            <span class="section-index">04</span>
+            <span class="section-label">工房</span>
+            <span class="section-rule" aria-hidden="true"></span>
+          </div>
+          <h2 class="display reveal">工房のまま。<br><em>意図して。</em></h2>
+          <p class="reveal">バクーンプロダクツは1974年、熊本で生まれた。五十年後のいまも、意図して小さい。一つの作業台、小さなチーム、そして設計者が、アンプが組み立てられ、測定され、聴かれる同じ部屋で仕事をしている。</p>
+          <p class="reveal">小さいままでいるのは、最後の五パーセントを聴き分ける唯一の方法だからだ。小ささは、守るべきもの。工場は平均的な一台に最適化する。工房は、この一台と前の一台の違いを聴き分けられる。</p>
+
+          <ul class="craft-rules reveal">
+            <li><span>01</span>熊本に、一つの工場。</li>
+            <li><span>02</span>一本のライン、一つの作業台。</li>
+            <li><span>03</span>出荷前に、すべての一台を聴く。</li>
+          </ul>
+
+          <p class="reveal">つくるものの大半は、日本を出ていく。最初の一年に不具合が出れば、その一台は、組み立てたのと同じ作業台へ戻る。</p>
+
+          <div class="craft-stats">
+            <div class="reveal">
+              <span class="stat-value">1974</span>
+              <span class="stat-label">熊本で創業</span>
+            </div>
+            <div class="reveal">
+              <span class="stat-value">50+</span>
+              <span class="stat-label">年、一つの工房</span>
+            </div>
+            <div class="reveal">
+              <span class="stat-value">89%</span>
+              <span class="stat-label">海外売上比率</span>
+            </div>
+            <div class="reveal">
+              <span class="stat-value">1</span>
+              <span class="stat-label">作業台、一本のライン、一つのチーム</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="heritage section" id="heritage">
+      <div class="heritage-head">
+        <div>
+          <div class="section-head reveal">
+            <span class="section-index">05</span>
+            <span class="section-label">沿革</span>
+            <span class="section-rule" aria-hidden="true"></span>
+          </div>
+          <h2 class="display reveal">歴史と、<br><em>最先端。</em></h2>
+        </div>
+        <p class="reveal">SATRI回路は三十七年間、改訂され、測定され、作り直されてきた。世代ごとに、何かが削られた。コンデンサ、変換、補正。最新のHBK(I)は第二世代として、いま生産されている。これが、その記録だ。</p>
+      </div>
+
+      <ol class="timeline">
+        <li class="reveal">
+          <span class="year">1974</span>
+          <div><h3>バクーンプロダクツ創業</h3><p>熊本でオーディオ製作を開始。</p></div>
+        </li>
+        <li class="reveal">
+          <span class="year">1989</span>
+          <div><h3>SATRI V1.0</h3><p>最初のSATRIアンプ、MORPHEUS。二本の抵抗で利得を決め、全段帰還を持たない。</p></div>
+        </li>
+        <li class="reveal">
+          <span class="year">1998</span>
+          <div><h3>最初のSATRI-IC</h3><p>BPM-7110TハイブリッドIC。AMP-5520シリーズでSuper-SATRI出力段が続く。</p></div>
+        </li>
+        <li class="reveal">
+          <span class="year">2007</span>
+          <div><h3>SATRI V9.0</h3><p>超高精度カレントミラーで歪みを十分の一に。SATRI-IC-SPが量産へ。</p></div>
+        </li>
+        <li class="reveal">
+          <span class="year">2011</span>
+          <div><h3>SATRI V9.3</h3><p>ベース電流の誤差を補正。SATRI-IC-EXと、より高精度なULが続く。</p></div>
+        </li>
+        <li class="reveal">
+          <span class="year">2013</span>
+          <div><h3>Best Sound, HIGH END Munich</h3><p>回路が国際舞台で認められる。</p></div>
+        </li>
+        <li class="reveal">
+          <span class="year">2014</span>
+          <div><h3>AMP-5521</h3><p>全面表面実装のアンプ。それを中心に新世代の回路が生まれる。</p></div>
+        </li>
+        <li class="reveal">
+          <span class="year">2016</span>
+          <div><h3>AMP-KUMAMOTO</h3><p>熊本地震のあとに生まれた限定モデル。</p></div>
+        </li>
+        <li class="reveal">
+          <span class="year">2019</span>
+          <div><h3>MJ Technology of the Year</h3><p>CAP-1001とCAP-1004が、MJ無線と実験のテクノロジー・オブ・ザ・イヤーに入賞。</p></div>
+        </li>
+        <li class="reveal">
+          <span class="year">2026</span>
+          <div><h3>HBK(I)、第二世代</h3><p>CAP-1001Mに最新の入力方式。CAP-1005 DACにはSATRI V12。</p></div>
+        </li>
+      </ol>
+    </section>
+
+    <section class="statement">
+      <div class="statement-inner">
+        <span class="statement-kicker reveal">SATRIの原理</span>
+        <blockquote class="reveal">アンプは、脇へ。<br><em>音楽が、届く。</em></blockquote>
+        <span class="statement-mark reveal">SCL · 1974</span>
+      </div>
+      <div class="statement-bg" aria-hidden="true">SATRI</div>
+    </section>
+
+    <section class="listen section" id="listen">
+      <div class="listen-inner">
+        <div class="listen-copy">
+          <div class="section-head reveal">
+            <span class="section-index">06</span>
+            <span class="section-label">試聴</span>
+            <span class="section-rule" aria-hidden="true"></span>
+          </div>
+          <h2 class="display reveal">実際に、<em>聴く。</em></h2>
+          <p class="reveal">ラインナップは、意図的に小さい。部屋と音楽についてお聞かせください。どのアンプが合うか、こちらからご提案します。ご連絡いただくか、熊本の工房へお越しください。</p>
+          <div class="listen-details reveal">
+            <div>
+              <span class="mono muted">工房</span>
+              <p>熊本、日本<br>予約制</p>
+            </div>
+            <div>
+              <span class="mono muted">直接</span>
+              <p><a href="https://bakoon-scl.shop-pro.jp/?mode=inq" target="_blank" rel="noopener">SATRI Shop お問い合わせ ↗</a><br>熊本から発送<br>韓国・オーストラリアに代理店</p>
+            </div>
+          </div>
+          <div class="listen-social reveal">
+            <a href="https://twitter.com/bp_satri" target="_blank" rel="noopener">X / Twitter</a>
+            <a href="https://facebook.com/bpsatri" target="_blank" rel="noopener">Facebook</a>
+            <a href="https://www.youtube.com/@SATRICircuitLaboratory" target="_blank" rel="noopener">YouTube</a>
+          </div>
+        </div>
+
+        <form class="listen-form reveal" id="listen-form" novalidate>
+          <div class="form-row">
+            <label for="name">お名前</label>
+            <input id="name" name="name" type="text" autocomplete="name" placeholder="お名前" required>
+          </div>
+          <div class="form-row">
+            <label for="email">メール</label>
+            <input id="email" name="email" type="email" autocomplete="email" placeholder="you@domain.com" required>
+          </div>
+          <div class="form-row">
+            <label for="system">現在のシステム</label>
+            <input id="system" name="system" type="text" placeholder="スピーカー、ソース、部屋">
+          </div>
+          <div class="form-row">
+            <label for="message">何を聴きたいですか？</label>
+            <textarea id="message" name="message" rows="3" placeholder="好きな録音、部屋のこと、質問など。"></textarea>
+          </div>
+          <button class="btn btn-primary form-submit" type="submit">
+            <span>試聴を申し込む</span>
+            <span class="btn-arrow" aria-hidden="true">↗</span>
+          </button>
+          <p class="form-note">コンセプト用フォームです。データは送信されません。</p>
+          <p class="form-success" id="form-success" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <span class="footer-eyebrow">SATRI回路研究所</span>
+        <a class="footer-wordmark" href="#top">BAKOON<span>SCL</span></a>
+        <p>熊本、日本。<br>1974年創業。</p>
+      </div>
+      <div class="footer-cols">
+        <div>
+          <span class="footer-label">見る</span>
+          <a href="#satri">SATRI</a>
+          <a href="#amplifiers">アンプ</a>
+          <a href="#craft">工房</a>
+          <a href="#heritage">沿革</a>
+          <a href="#listen">試聴</a>
+        </div>
+        <div>
+          <span class="footer-label">リンク</span>
+          <a href="https://bakoon-scl.shop-pro.jp/" target="_blank" rel="noopener">SATRI Shop ↗</a>
+          <a href="https://twitter.com/bp_satri" target="_blank" rel="noopener">X / Twitter ↗</a>
+          <a href="https://facebook.com/bpsatri" target="_blank" rel="noopener">Facebook ↗</a>
+          <a href="https://www.youtube.com/@SATRICircuitLaboratory" target="_blank" rel="noopener">YouTube ↗</a>
+        </div>
+        <div>
+          <span class="footer-label">連絡</span>
+          <a href="https://bakoon-scl.shop-pro.jp/?mode=inq" target="_blank" rel="noopener">お問い合わせ ↗</a>
+          <a href="#listen">試聴を申し込む</a>
+          <p class="footer-address">バクーンプロダクツ株式会社<br>熊本、日本</p>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="year">2026</span> SATRI回路研究所 / バクーンプロダクツ株式会社</span>
+      <span class="footer-disclaimer">コンセプトデザインであり、Bakoon公式サイトではありません。製品データは bakoon-scl.shop-pro.jp より。</span>
+      <div class="footer-end">
+        <a class="footer-lang" href="index.html">English</a>
+        <a href="#top">ページ上部へ ↑</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
